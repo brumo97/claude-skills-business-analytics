@@ -1,0 +1,501 @@
+id_pedido,data_venda,produto,categoria,regiao,vendedor,quantidade,preco_unitario,desconto,valor_total,status_pedido,canal_venda
+HT-2024445,2024-04-28,Placa de Vídeo GTX,Periféricos,Norte,Diego Santos,1,2879.99,0,2879.99,Entregue,Parceiro
+HT-2024278,2024-11-20,Tablet Pro 12,Tablets,Sudeste,Juliana Pereira,2,3046.91,0.05,5789.13,Entregue,Site
+HT-2024274,2024-12-29,Smartphone Pro Max,Smartphones,Norte,Diego Santos,2,3528.74,0.05,6704.61,Entregue,Loja Física
+HT-2024429,2024-02-15,Tablet Pro 12,Tablets,Sudeste,Carlos Souza,1,2810.79,0,2810.79,Em trânsito,Parceiro
+HT-2024465,2024-06-27,Mouse Sem Fio,Acessórios,Sudeste,Carlos Souza,3,159.58,0.05,454.8,Entregue,Site
+HT-2024433,2024-08-29,Suporte Notebook,Acessórios,Centro-Oeste,Diego Santos,1,117.5,0,117.5,Entregue,Marketplace
+HT-2024197,2024-08-04,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,1,1591.87,0,1591.87,Em trânsito,App
+HT-2024291,2024-12-09,Notebook Ultra 13,Notebooks,Nordeste,Bruno Alves,4,4401.76,0,17607.04,Entregue,Marketplace
+HT-2024271,2024-09-15,Smartphone Z8 Lite,Smartphones,Nordeste,Diego Santos,2,1260.31,0.05,2394.59,Em trânsito,App
+HT-2024126,2024-07-08,Mousepad XL,Acessórios,Nordeste,Rafael Mendes,1,81.99,0,81.99,Entregue,Site
+HT-2024446,2024-06-05,Smartphone Z8 Lite,Smartphones,Sul,Fernanda Costa,1,1322.55,0,1322.55,Entregue,Loja Física
+HT-2024230,2024-10-03,Teclado Mecânico,Acessórios,Centro-Oeste,,1,373.24,0,373.24,Entregue,Marketplace
+HT-2024452,2024-07-22,Smartphone Pro Max,Smartphones,Norte,Bruno Alves,1,3746.59,0,3746.59,Entregue,Loja Física
+HT-2024106,2024-07-10,Smartphone Z8 Lite,Smartphones,Sul,,1,1537.37,0,1537.37,Em trânsito,App
+HT-2024018,2024-01-30,Mousepad XL,Acessórios,Centro-Oeste,Diego Santos,2,89.75,0,179.5,Entregue,Parceiro
+HT-2024151,2024-10-05,"Monitor Curvo 32""",Monitores,Sudeste,,1,2341.08,0,2341.08,Entregue,Site
+HT-2024373,2024-10-29,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,1,1721.34,0,1721.34,Cancelado,Marketplace
+HT-2024160,2024-10-18,Headset Gamer,Periféricos,Norte,Diego Santos,2,448.94,0.05,852.99,Devolvido,Loja Física
+HT-2024482,2024-01-10,Tablet Draw 10,Tablets,Nordeste,Juliana Pereira,1,1623.57,0.15,1380.03,Em trânsito,Parceiro
+HT-2024435,2024-11-22,Smartphone Pro Max,Smartphones,Centro-Oeste,Diego Santos,3,3828.0,0,11484.0,Em trânsito,App
+HT-2024491,2024-04-30,Mouse Sem Fio,Acessórios,Norte,Patrícia Gomes,1,159.71,0,159.71,Em trânsito,Marketplace
+HT-2024320,2024-11-09,Smartphone Pro Max,Smartphones,Norte,Bruno Alves,1,3333.04,0.15,2833.08,Entregue,Loja Física
+HT-2024273,2024-12-24,Suporte Notebook,Acessórios,Centro-Oeste,Rafael Mendes,2,137.85,0,275.7,Entregue,Parceiro
+HT-2024001,2024-12-08,Smartphone Z10,Smartphones,Sul,Patrícia Gomes,2,2303.0,0.1,4145.4,Entregue,
+HT-2024139,2024-03-11,Notebook Gamer X,Notebooks,Nordeste,Diego Santos,1,6353.28,0.05,6035.62,Cancelado,Marketplace
+HT-2024099,2024-06-17,Notebook Gamer X,Notebooks,Centro-Oeste,Fernanda Costa,1,6005.88,0.05,5705.59,Entregue,Parceiro
+HT-2024374,2024-11-09,"Monitor Curvo 32""",Monitores,Centro-Oeste,Fernanda Costa,3,2341.72,0.15,5971.39,Entregue,App
+HT-2024431,2024-11-11,Controle USB,Periféricos,Sudeste,Fernanda Costa,2,180.82,0.15,307.39,Em trânsito,Loja Física
+HT-2024284,2024-10-02,Hub USB-C,Acessórios,Sudeste,Patrícia Gomes,1,193.8,0.05,184.11,Em trânsito,App
+HT-2024082,2024-01-23,Tablet Pro 12,Tablets,Nordeste,Patrícia Gomes,4,2874.67,0,11498.68,Entregue,Site
+HT-2024215,2024-07-09,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,1,1625.33,0.1,1462.8,Entregue,App
+HT-2024022,2024-11-30,Tablet Pro 12,Tablets,Nordeste,Carlos Souza,1,3149.33,0.1,2834.4,Cancelado,App
+HT-2024071,2024-07-21,Fone Bluetooth,Acessórios,Sul,Diego Santos,2,302.94,0.05,575.59,Em trânsito,Marketplace
+HT-2024165,2024-07-13,"Monitor Curvo 32""",Monitores,Sul,Diego Santos,2,2387.49,0.05,4536.23,Em trânsito,Marketplace
+HT-2024070,2024-08-05,Tablet Pro 12,Tablets,Sudeste,Carlos Souza,1,2873.97,0.2,2299.18,Entregue,
+HT-2024032,2024-03-27,Tablet Draw 10,Tablets,Sul,Rafael Mendes,2,1529.85,0.05,2906.71,Cancelado,App
+HT-2024117,2024-02-28,Notebook Gamer X,Notebooks,Sul,Juliana Pereira,2,5434.88,0.15,9239.3,Em trânsito,Loja Física
+HT-2024461,2024-09-29,Tablet Draw 10,Tablets,Sudeste,Ana Lima,4,1572.57,0,6290.28,Entregue,Marketplace
+HT-2024484,2024-03-23,Mouse Sem Fio,Acessórios,Sudeste,Juliana Pereira,1,146.19,0,146.19,Entregue,Parceiro
+HT-2024045,2024-09-24,Tablet Pro 12,Tablets,Nordeste,Patrícia Gomes,4,2966.21,0.1,10678.36,Em trânsito,Parceiro
+HT-2024306,2024-05-11,Smartphone Z10,Smartphones,Sudeste,Ana Lima,3,2290.98,0.05,6529.29,Entregue,Marketplace
+HT-2024083,2024-11-09,Mousepad XL,Acessórios,Centro-Oeste,Juliana Pereira,2,90.52,0,181.04,Entregue,Parceiro
+HT-2024343,2024-09-11,Placa de Vídeo GTX,Periféricos,Sudeste,Carlos Souza,1,2605.38,0,2605.38,Cancelado,Site
+HT-2024257,2024-12-22,Notebook Gamer X,Notebooks,Sudeste,Carlos Souza,2,5822.55,0.05,11062.84,Entregue,Marketplace
+HT-2024351,2024-04-29,Teclado Mecânico,Acessórios,Sul,Bruno Alves,1,357.25,0.15,303.66,Em trânsito,App
+HT-2024243,2024-03-24,Placa de Vídeo GTX,Periféricos,Sudeste,Rafael Mendes,1,2955.65,0,2955.65,Entregue,Loja Física
+HT-2024220,2024-01-29,Headset Gamer,Periféricos,Sudeste,Fernanda Costa,5,455.8,0,2279.0,Entregue,Marketplace
+HT-2024108,2024-11-14,Notebook Ultra 13,Notebooks,Sudeste,Fernanda Costa,1,4382.18,0,4382.18,Entregue,Site
+HT-2024036,2024-09-23,"Monitor Curvo 32""",Monitores,Sudeste,Juliana Pereira,1,2273.89,0.05,2160.2,Entregue,Parceiro
+HT-2024391,2024-03-28,Notebook Ultra 13,Notebooks,Sudeste,Ana Lima,1,4396.38,0,4396.38,Cancelado,Site
+HT-2024430,2024-01-28,Smartphone Z10,Smartphones,Nordeste,,2,2329.45,0.15,3960.06,Entregue,Site
+HT-2024053,2024-08-14,Webcam HD,Acessórios,Sul,Rafael Mendes,2,248.92,0.05,472.95,Entregue,Marketplace
+HT-2024190,2024-04-15,Headset Gamer,Periféricos,Sudeste,Bruno Alves,2,455.29,0.05,865.05,Devolvido,Marketplace
+HT-2024051,2024-09-08,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,1,3956.76,0,3956.76,Em trânsito,Site
+HT-2024242,2024-07-09,"Monitor Curvo 32""",Monitores,Centro-Oeste,Bruno Alves,4,2373.14,0,9492.56,Entregue,Marketplace
+HT-2024008,2024-01-25,Headset Gamer,Periféricos,Sudeste,Carlos Souza,1,417.83,0.05,396.94,Entregue,Loja Física
+HT-2024201,2024-01-07,Teclado Mecânico,Acessórios,Norte,,3,360.37,0.05,1027.05,Em trânsito,Site
+HT-2024386,2024-11-06,Hub USB-C,Acessórios,Sudeste,Ana Lima,3,202.78,0.05,577.92,Entregue,App
+HT-2024298,2024-09-23,Tablet Pro 12,Tablets,Sudeste,Patrícia Gomes,1,3093.16,0,3093.16,Cancelado,Marketplace
+HT-2024181,2024-06-24,Tablet Draw 10,Tablets,Sudeste,Fernanda Costa,1,1655.65,0.2,1324.52,Entregue,Marketplace
+HT-2024307,2024-05-13,Placa de Vídeo GTX,Periféricos,Nordeste,Rafael Mendes,1,2756.21,0,2756.21,Entregue,Parceiro
+HT-2024436,2024-05-06,Smartphone Z8 Lite,Smartphones,Sudeste,Ana Lima,1,1380.6,0.15,1173.51,Entregue,Loja Física
+HT-2024403,2024-08-18,"Monitor 27"" 4K",Monitores,Nordeste,Rafael Mendes,1,1794.84,0,1794.84,Cancelado,Marketplace
+HT-2024090,2024-06-25,"Monitor 24"" Full HD",Monitores,Sudeste,,2,860.03,0,1720.06,Devolvido,Site
+HT-2024454,2024-09-25,Fone Bluetooth,Acessórios,Sul,Patrícia Gomes,2,324.9,0,649.8,Entregue,Marketplace
+HT-2024297,2024-05-15,Mouse Sem Fio,Acessórios,,Patrícia Gomes,1,135.38,0.15,115.07,Entregue,Loja Física
+HT-2024020,2024-05-13,Smartphone Pro Max,Smartphones,Norte,,1,3650.29,0,3650.29,Entregue,Site
+HT-2024455,2024-03-11,Smartphone Z10,Smartphones,Norte,Juliana Pereira,1,2345.14,0,2345.14,Entregue,Loja Física
+HT-2024418,2024-01-10,"Monitor 24"" Full HD",Monitores,Nordeste,Juliana Pereira,1,926.49,0,926.49,Entregue,Marketplace
+HT-2024424,2024-08-29,Hub USB-C,Acessórios,Sul,Juliana Pereira,2,179.27,0,358.54,Em trânsito,Site
+HT-2024172,2024-07-17,Headset Gamer,Periféricos,Sudeste,Fernanda Costa,2,469.19,0.2,750.7,Cancelado,App
+HT-2024129,2024-07-25,Fone Bluetooth,Acessórios,Centro-Oeste,Juliana Pereira,2,293.05,0,586.1,Entregue,Parceiro
+HT-2024098,2024-12-28,"Monitor Curvo 32""",Monitores,Norte,Patrícia Gomes,1,2409.91,0,2409.91,Entregue,Marketplace
+HT-2024216,2024-08-24,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,1,4229.74,0.05,4018.25,Entregue,Marketplace
+HT-2024091,2024-05-10,Teclado Mecânico,Acessórios,Sudeste,Patrícia Gomes,1,359.43,0,359.43,Entregue,App
+HT-2024156,2024-05-10,Smartphone Z8 Lite,Smartphones,Sul,Rafael Mendes,4,1440.05,0.1,5184.18,Entregue,Loja Física
+HT-2024365,2024-12-01,Smartphone Z8 Lite,Smartphones,Sudeste,Bruno Alves,2,1278.07,0.05,2428.33,Em trânsito,App
+HT-2024388,2024-06-16,Smartphone Z10,Smartphones,Sudeste,Rafael Mendes,4,2340.68,0.05,8894.58,Cancelado,Loja Física
+HT-2024286,2024-07-17,"Monitor Curvo 32""",Monitores,Sudeste,,1,2353.15,0,2353.15,Entregue,Parceiro
+HT-2024415,2024-04-04,Notebook Gamer X,Notebooks,Sul,Diego Santos,1,5432.81,0.05,5161.17,Em trânsito,Marketplace
+HT-2024275,2024-08-04,Headset Gamer,Periféricos,Sul,Rafael Mendes,1,451.04,0,451.04,Entregue,App
+HT-2024296,2024-11-10,Placa de Vídeo GTX,Periféricos,,Fernanda Costa,1,2597.68,0.05,2467.8,Cancelado,Loja Física
+HT-2024065,2024-02-21,Controle USB,Periféricos,Sudeste,,4,183.07,0,732.28,Em trânsito,App
+HT-2024344,2024-09-05,Smartphone Z10,Smartphones,Nordeste,Juliana Pereira,2,1993.09,0,3986.18,Entregue,App
+HT-2024100,2024-12-05,Mousepad XL,Acessórios,Norte,Fernanda Costa,1,96.8,0,96.8,Cancelado,Parceiro
+HT-2024088,2024-06-28,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,2,4187.42,0,8374.84,Entregue,Loja Física
+HT-2024295,2024-03-17,Webcam HD,Acessórios,Norte,Fernanda Costa,3,244.67,0.05,697.31,Entregue,
+HT-2024352,2024-02-18,Mousepad XL,Acessórios,Centro-Oeste,Ana Lima,2,85.45,0.05,162.35,Entregue,Loja Física
+HT-2024419,2024-09-08,"Monitor 27"" 4K",Monitores,Sul,Rafael Mendes,2,1862.51,0.1,3352.52,Entregue,Loja Física
+HT-2024211,2024-07-09,"Monitor Curvo 32""",Monitores,Sudeste,Carlos Souza,1,2199.84,0,2199.84,Entregue,App
+HT-2024072,2024-04-07,Suporte Notebook,Acessórios,,Carlos Souza,2,133.59,0.05,253.82,Entregue,Marketplace
+HT-2024110,2024-06-25,Smartphone Pro Max,Smartphones,Norte,Fernanda Costa,1,3608.94,0.05,3428.49,Entregue,Parceiro
+HT-2024031,2024-10-07,Headset Gamer,Periféricos,Centro-Oeste,Bruno Alves,1,431.39,0.1,388.25,Entregue,Loja Física
+HT-2024039,2024-07-26,Tablet Draw 10,Tablets,Centro-Oeste,Ana Lima,4,1707.89,0.2,5465.25,Entregue,Site
+HT-2024427,2024-02-21,Placa de Vídeo GTX,Periféricos,Sul,Carlos Souza,3,2861.94,0,8585.82,Entregue,Site
+HT-2024213,2024-08-19,Webcam HD,Acessórios,Sudeste,Ana Lima,1,246.83,0,246.83,Em trânsito,App
+HT-2024013,2024-04-27,Hub USB-C,Acessórios,Nordeste,Ana Lima,2,170.37,0,340.74,Entregue,App
+HT-2024279,2024-08-07,Teclado Mecânico,Acessórios,Norte,,2,360.22,0,720.44,Cancelado,App
+HT-2024328,2024-09-25,Headset Gamer,Periféricos,Nordeste,Juliana Pereira,2,413.43,0,826.86,Entregue,Marketplace
+HT-2024141,2024-04-05,Tablet Pro 12,Tablets,Sul,Bruno Alves,1,3117.44,0.05,2961.57,Entregue,Parceiro
+HT-2024026,2024-03-31,"Monitor 24"" Full HD",Monitores,,Rafael Mendes,4,841.35,0.1,3028.86,Entregue,Site
+HT-2024200,2024-12-07,Mousepad XL,Acessórios,Sul,Rafael Mendes,2,89.17,0,178.34,Entregue,Site
+HT-2024361,2024-06-10,"Monitor Curvo 32""",Monitores,Sul,Ana Lima,1,2414.14,0,2414.14,Em trânsito,Marketplace
+HT-2024353,2024-11-30,Notebook Gamer X,Notebooks,Sul,Bruno Alves,1,6120.75,0,6120.75,Entregue,App
+HT-2024176,2024-01-14,Tablet Pro 12,Tablets,Sul,Patrícia Gomes,1,3155.84,0.1,2840.26,Cancelado,App
+HT-2024012,2024-04-18,Mousepad XL,Acessórios,Norte,Diego Santos,2,92.38,0,184.76,Em trânsito,Loja Física
+HT-2024260,2024-03-30,Headset Gamer,Periféricos,Sudeste,,1,480.63,0.05,456.6,Em trânsito,Site
+HT-2024474,2024-03-01,"Monitor 27"" 4K",Monitores,Sul,Fernanda Costa,1,1828.57,0,1828.57,Entregue,Marketplace
+HT-2024443,2024-12-20,Notebook Pro 15,Notebooks,Sudeste,Juliana Pereira,1,4204.61,0,4204.61,Devolvido,Site
+HT-2024500,2024-01-24,Notebook Ultra 13,Notebooks,Norte,,1,4302.91,0.2,3442.33,Devolvido,Parceiro
+HT-2024476,2024-11-11,Controle USB,Periféricos,Norte,,1,191.86,0,191.86,Em trânsito,Parceiro
+HT-2024473,2024-09-23,Controle USB,Periféricos,Nordeste,Juliana Pereira,1,210.65,0.05,200.12,Entregue,Parceiro
+HT-2024327,2024-04-30,Tablet Pro 12,Tablets,Sudeste,Patrícia Gomes,2,3154.37,0,6308.74,Entregue,Site
+HT-2024495,2024-04-03,"Monitor 27"" 4K",Monitores,Sul,Rafael Mendes,3,2067.92,0,6203.76,Em trânsito,Loja Física
+HT-2024061,2024-07-27,Notebook Pro 15,Notebooks,Sul,Fernanda Costa,4,4282.86,0,17131.44,Entregue,Marketplace
+HT-2024255,2024-07-25,Notebook Pro 15,Notebooks,Sul,Fernanda Costa,5,3684.03,0,18420.15,Entregue,Site
+HT-2024381,2024-11-10,Mousepad XL,Acessórios,,,1,91.35,0,91.35,Cancelado,App
+HT-2024276,2024-05-31,Smartphone Pro Max,Smartphones,Centro-Oeste,Rafael Mendes,3,3171.71,0,9515.13,Cancelado,Parceiro
+HT-2024396,2024-02-03,Mouse Sem Fio,Acessórios,Nordeste,Bruno Alves,2,158.35,0.1,285.03,Entregue,App
+HT-2024203,2024-02-10,Hub USB-C,Acessórios,Sudeste,,1,206.93,0,206.93,Entregue,App
+HT-2024147,2024-08-14,Notebook Gamer X,Notebooks,Centro-Oeste,Diego Santos,2,5457.32,0,10914.64,Em trânsito,Loja Física
+HT-2024210,2024-06-06,Notebook Pro 15,Notebooks,Sul,,1,3922.25,0,3922.25,Cancelado,Site
+HT-2024366,2024-07-29,Webcam HD,Acessórios,,Fernanda Costa,3,271.72,0.05,774.4,Em trânsito,Site
+HT-2024493,2024-11-21,Tablet Draw 10,Tablets,Nordeste,Rafael Mendes,3,1640.62,0,4921.86,Entregue,Marketplace
+HT-2024329,2024-01-18,Tablet Pro 12,Tablets,Centro-Oeste,Juliana Pereira,1,3107.94,0,3107.94,Entregue,App
+HT-2024359,2024-10-07,"Monitor Curvo 32""",Monitores,Sul,,1,2509.32,0.05,2383.85,Entregue,Parceiro
+HT-2024188,2024-07-06,Hub USB-C,Acessórios,Norte,Carlos Souza,1,198.83,0,198.83,Cancelado,App
+HT-2024034,2024-02-24,Controle USB,Periféricos,Sudeste,Ana Lima,3,187.81,0.05,535.26,Em trânsito,Site
+HT-2024120,2024-10-20,Webcam HD,Acessórios,Sudeste,Carlos Souza,2,274.73,0.05,521.99,Devolvido,Loja Física
+HT-2024421,2024-07-15,Tablet Draw 10,Tablets,Norte,Diego Santos,1,1534.68,0,1534.68,Entregue,Loja Física
+HT-2024057,2024-02-16,Smartphone Pro Max,Smartphones,Nordeste,Ana Lima,2,3734.1,0.15,6347.97,Entregue,Parceiro
+HT-2024280,2024-11-16,Tablet Pro 12,Tablets,Norte,,2,2893.52,0,5787.04,Devolvido,Parceiro
+HT-2024372,2024-01-28,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,2,1587.35,0,3174.7,Entregue,Parceiro
+HT-2024113,2024-06-22,Smartphone Z8 Lite,Smartphones,Norte,Carlos Souza,1,1452.74,0.1,1307.47,Entregue,Parceiro
+HT-2024143,2024-07-26,Controle USB,Periféricos,Sudeste,,1,199.61,0.05,189.63,Entregue,App
+HT-2024432,2024-10-23,Webcam HD,Acessórios,Sul,Bruno Alves,2,243.4,0,486.8,Entregue,App
+HT-2024334,2024-09-30,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,1,4267.32,0,4267.32,Entregue,Loja Física
+HT-2024074,2024-06-22,Headset Gamer,Periféricos,Sudeste,Patrícia Gomes,1,446.16,0.1,401.54,Devolvido,
+HT-2024277,2024-12-20,"Monitor 27"" 4K",Monitores,Sul,Ana Lima,3,1867.31,0.05,5321.83,Entregue,Parceiro
+HT-2024480,2024-10-01,Smartphone Z8 Lite,Smartphones,Norte,Carlos Souza,1,1333.29,0.05,1266.63,Entregue,Parceiro
+HT-2024204,2024-11-04,Notebook Gamer X,Notebooks,Norte,Juliana Pereira,1,5378.24,0,5378.24,Entregue,App
+HT-2024310,2024-01-20,Tablet Pro 12,Tablets,Centro-Oeste,Ana Lima,1,3148.71,0.05,2991.27,Em trânsito,Loja Física
+HT-2024089,2024-10-17,Hub USB-C,Acessórios,Sudeste,Carlos Souza,1,203.49,0.1,183.14,Cancelado,Loja Física
+HT-2024170,2024-02-07,Notebook Ultra 13,Notebooks,Nordeste,,2,4001.7,0.05,7603.23,Entregue,Site
+HT-2024410,2024-04-17,Mousepad XL,Acessórios,Sudeste,Ana Lima,1,95.08,0,95.08,Entregue,Marketplace
+HT-2024195,2024-08-07,Smartphone Pro Max,Smartphones,Norte,Carlos Souza,3,3785.5,0,11356.5,Entregue,Marketplace
+HT-2024171,2024-03-08,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,2,3845.18,0,7690.36,Entregue,Parceiro
+HT-2024069,2024-03-14,Smartphone Z8 Lite,Smartphones,Nordeste,,1,1437.59,0.05,1365.71,Cancelado,App
+HT-2024017,2024-03-25,"Monitor 24"" Full HD",Monitores,Nordeste,Juliana Pereira,1,986.26,0.1,887.63,Entregue,Parceiro
+HT-2024239,2024-09-08,Placa de Vídeo GTX,Periféricos,Norte,Diego Santos,5,2902.48,0,14512.4,Em trânsito,Marketplace
+HT-2024081,2024-05-01,Suporte Notebook,Acessórios,Norte,Carlos Souza,1,116.51,0,116.51,Entregue,Marketplace
+HT-2024148,2024-12-10,Tablet Draw 10,Tablets,Sul,Carlos Souza,3,1565.72,0.05,4462.3,Entregue,Site
+HT-2024194,2024-10-07,Hub USB-C,Acessórios,Sudeste,,1,191.5,0,191.5,Em trânsito,Loja Física
+HT-2024267,2024-12-14,Notebook Gamer X,Notebooks,Centro-Oeste,Juliana Pereira,3,5855.94,0.1,15811.04,Em trânsito,Parceiro
+HT-2024459,2024-03-26,Suporte Notebook,Acessórios,Norte,Juliana Pereira,3,138.61,0.05,395.04,Cancelado,Marketplace
+HT-2024016,2024-08-14,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Carlos Souza,2,2573.91,0,5147.82,Em trânsito,App
+HT-2024440,2024-12-24,Notebook Gamer X,Notebooks,Sul,,2,6315.48,0.1,11367.86,Entregue,Parceiro
+HT-2024225,2024-10-17,Notebook Pro 15,Notebooks,Centro-Oeste,Carlos Souza,4,3978.84,0.15,13528.06,Entregue,Site
+HT-2024157,2024-10-27,Tablet Draw 10,Tablets,Sul,Rafael Mendes,3,1592.41,0,4777.23,Em trânsito,Site
+HT-2024370,2024-10-19,Mousepad XL,Acessórios,Sudeste,Carlos Souza,3,89.45,0.1,241.52,Em trânsito,Site
+HT-2024132,2024-01-09,Teclado Mecânico,Acessórios,Sul,Diego Santos,5,402.52,0.05,1911.97,Entregue,Parceiro
+HT-2024164,2024-07-22,Notebook Ultra 13,Notebooks,Sudeste,Juliana Pereira,1,4693.9,0,4693.9,Cancelado,Site
+HT-2024331,2024-01-01,Hub USB-C,Acessórios,Nordeste,Diego Santos,1,183.1,0,183.1,Entregue,Loja Física
+HT-2024187,2024-01-16,Headset Gamer,Periféricos,Sudeste,Diego Santos,1,430.33,0,430.33,Entregue,Loja Física
+HT-2024010,2024-11-05,Mouse Sem Fio,Acessórios,Sul,Bruno Alves,3,150.17,0,450.51,Entregue,Site
+HT-2024075,2024-08-20,Teclado Mecânico,Acessórios,Sul,Rafael Mendes,3,395.58,0.15,1008.73,Entregue,Parceiro
+HT-2024142,2024-05-19,Smartphone Z10,Smartphones,Norte,Ana Lima,2,2124.53,0.05,4036.61,Em trânsito,Parceiro
+HT-2024266,2024-09-16,Smartphone Pro Max,Smartphones,Nordeste,Diego Santos,1,3599.29,0,3599.29,Em trânsito,Loja Física
+HT-2024304,2024-11-10,Placa de Vídeo GTX,Periféricos,Nordeste,Ana Lima,1,2800.86,0,2800.86,Em trânsito,Loja Física
+HT-2024405,2024-02-10,Mousepad XL,Acessórios,,Juliana Pereira,1,81.67,0.05,77.59,Entregue,Marketplace
+HT-2024350,2024-06-03,Notebook Ultra 13,Notebooks,Norte,Fernanda Costa,1,4715.48,0,4715.48,Entregue,Loja Física
+HT-2024111,2024-12-22,Smartphone Z10,Smartphones,Norte,Rafael Mendes,3,2006.85,0,6020.55,Entregue,App
+HT-2024464,2024-01-06,Headset Gamer,Periféricos,Sudeste,Fernanda Costa,4,474.36,0,1897.44,Cancelado,Site
+HT-2024027,2024-08-23,Teclado Mecânico,Acessórios,Sudeste,Patrícia Gomes,3,413.94,0,1241.82,Entregue,Site
+HT-2024377,2024-01-29,Tablet Pro 12,Tablets,Centro-Oeste,,3,2630.39,0.05,7496.61,Entregue,Site
+HT-2024086,2024-12-06,"Monitor Curvo 32""",Monitores,Sul,Rafael Mendes,1,2183.78,0,2183.78,Entregue,Loja Física
+HT-2024399,2024-12-14,Teclado Mecânico,Acessórios,Sudeste,Carlos Souza,4,421.56,0.05,1601.93,Entregue,Parceiro
+HT-2024101,2024-06-07,Smartphone Z10,Smartphones,Sudeste,Fernanda Costa,3,2129.39,0,6388.17,Entregue,Site
+HT-2024346,2024-06-04,Notebook Pro 15,Notebooks,Centro-Oeste,Patrícia Gomes,1,4258.17,0.05,4045.26,Entregue,Parceiro
+HT-2024483,2024-11-12,"Monitor 24"" Full HD",Monitores,Nordeste,Patrícia Gomes,2,852.32,0.1,1534.18,Entregue,Site
+HT-2024052,2024-01-28,Smartphone Z10,Smartphones,Sudeste,Carlos Souza,4,2335.84,0,9343.36,Entregue,Parceiro
+HT-2024395,2024-07-26,Placa de Vídeo GTX,Periféricos,Norte,Diego Santos,1,2965.13,0.05,2816.87,Entregue,Loja Física
+HT-2024150,2024-12-04,Smartphone Pro Max,Smartphones,Nordeste,Fernanda Costa,1,3751.13,0.2,3000.9,Cancelado,App
+HT-2024116,2024-07-15,Hub USB-C,Acessórios,Norte,Diego Santos,2,192.97,0.15,328.05,Em trânsito,Parceiro
+HT-2024193,2024-10-24,Notebook Gamer X,Notebooks,Nordeste,Carlos Souza,5,5327.13,0.05,25303.87,Entregue,Loja Física
+HT-2024121,2024-06-11,Tablet Draw 10,Tablets,Centro-Oeste,Fernanda Costa,2,1583.0,0,3166.0,Em trânsito,App
+HT-2024234,2024-08-31,Hub USB-C,Acessórios,Sul,Fernanda Costa,1,188.1,0.15,159.88,Entregue,Loja Física
+HT-2024114,2024-06-16,Tablet Pro 12,Tablets,Nordeste,Bruno Alves,2,2786.81,0,5573.62,Entregue,Marketplace
+HT-2024180,2024-03-13,Teclado Mecânico,Acessórios,Norte,Diego Santos,3,376.79,0,1130.37,Entregue,Loja Física
+HT-2024325,2024-05-26,"Monitor Curvo 32""",Monitores,Norte,Patrícia Gomes,3,2618.07,0.05,7461.5,Entregue,Parceiro
+HT-2024294,2024-01-10,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Rafael Mendes,3,2872.68,0.05,8187.14,Em trânsito,Parceiro
+HT-2024247,2024-08-02,"Monitor 27"" 4K",Monitores,Sudeste,Bruno Alves,2,1988.91,0.2,3182.26,Cancelado,App
+HT-2024006,2024-06-15,Headset Gamer,Periféricos,Sudeste,Carlos Souza,1,424.67,0,424.67,Em trânsito,Marketplace
+HT-2024259,2024-10-20,Tablet Pro 12,Tablets,Sul,Juliana Pereira,1,2695.57,0,2695.57,Entregue,Loja Física
+HT-2024122,2024-03-19,Mouse Sem Fio,Acessórios,Centro-Oeste,Juliana Pereira,4,138.93,0,555.72,Em trânsito,Marketplace
+HT-2024402,2024-09-06,Tablet Pro 12,Tablets,Nordeste,Diego Santos,1,3174.39,0,3174.39,Em trânsito,Parceiro
+HT-2024119,2024-06-02,Headset Gamer,Periféricos,Norte,Rafael Mendes,4,468.02,0.05,1778.48,Entregue,App
+HT-2024198,2024-11-20,Tablet Draw 10,Tablets,Sudeste,Patrícia Gomes,2,1579.84,0.05,3001.7,Entregue,Loja Física
+HT-2024339,2024-03-20,Fone Bluetooth,Acessórios,Sudeste,Ana Lima,1,283.97,0.05,269.77,Entregue,Parceiro
+HT-2024478,2024-12-02,Mousepad XL,Acessórios,Centro-Oeste,Ana Lima,1,96.15,0.05,91.34,Entregue,Loja Física
+HT-2024290,2024-10-17,Headset Gamer,Periféricos,Sudeste,Carlos Souza,4,480.55,0.2,1537.76,Entregue,Site
+HT-2024456,2024-11-23,"Monitor 24"" Full HD",Monitores,Nordeste,Rafael Mendes,3,926.66,0,2779.98,Entregue,Marketplace
+HT-2024469,2024-08-31,Tablet Pro 12,Tablets,Sul,Patrícia Gomes,5,2713.06,0,13565.3,Entregue,Site
+HT-2024416,2024-05-11,Smartphone Z10,Smartphones,Sul,Juliana Pereira,1,2101.05,0,2101.05,Devolvido,Marketplace
+HT-2024342,2024-11-22,Tablet Draw 10,Tablets,Centro-Oeste,Rafael Mendes,2,1721.46,0,3442.92,Entregue,Site
+HT-2024208,2024-02-05,"Monitor 27"" 4K",Monitores,Sudeste,Ana Lima,1,2002.89,0,2002.89,Entregue,Marketplace
+HT-2024038,2024-09-01,Notebook Ultra 13,Notebooks,,Rafael Mendes,1,4125.85,0.1,3713.27,Entregue,Marketplace
+HT-2024371,2024-01-21,Suporte Notebook,Acessórios,Norte,Diego Santos,2,129.42,0,258.84,Entregue,Marketplace
+HT-2024124,2024-10-22,Mouse Sem Fio,Acessórios,Nordeste,Juliana Pereira,1,156.96,0.05,149.11,Entregue,Marketplace
+HT-2024054,2024-01-02,"Monitor 27"" 4K",Monitores,Norte,,1,1970.92,0,1970.92,Cancelado,Loja Física
+HT-2024007,2024-03-14,Mouse Sem Fio,Acessórios,Centro-Oeste,Patrícia Gomes,2,141.45,0,282.9,Em trânsito,Loja Física
+HT-2024321,2024-05-23,"Monitor 24"" Full HD",Monitores,Sul,Juliana Pereira,5,911.84,0.05,4331.24,Em trânsito,Parceiro
+HT-2024426,2024-04-19,Headset Gamer,Periféricos,Sudeste,Patrícia Gomes,1,457.36,0,457.36,Entregue,Marketplace
+HT-2024250,2024-10-25,Mousepad XL,Acessórios,Nordeste,Juliana Pereira,3,81.37,0,244.11,Entregue,App
+HT-2024287,2024-05-28,Placa de Vídeo GTX,Periféricos,Nordeste,Patrícia Gomes,1,2687.8,0.1,2419.02,Entregue,Site
+HT-2024385,2024-12-13,Hub USB-C,Acessórios,Centro-Oeste,Carlos Souza,2,177.97,0.1,320.35,Entregue,Site
+HT-2024282,2024-01-05,Notebook Gamer X,Notebooks,Centro-Oeste,Rafael Mendes,1,5620.4,0.05,5339.38,Devolvido,Marketplace
+HT-2024481,2024-04-17,Fone Bluetooth,Acessórios,Nordeste,Bruno Alves,1,308.06,0.1,277.25,Entregue,Loja Física
+HT-2024035,2024-10-31,Webcam HD,Acessórios,Centro-Oeste,Diego Santos,2,264.84,0,529.68,Em trânsito,Loja Física
+HT-2024033,2024-11-08,Notebook Ultra 13,Notebooks,,Diego Santos,2,4225.44,0,8450.88,Entregue,App
+HT-2024375,2024-08-16,Mouse Sem Fio,Acessórios,Centro-Oeste,Juliana Pereira,1,137.6,0,137.6,Entregue,
+HT-2024264,2024-12-13,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,2,1751.83,0,3503.66,Cancelado,Loja Física
+HT-2024206,2024-02-22,Mousepad XL,Acessórios,Sudeste,Ana Lima,1,92.97,0,92.97,Entregue,Loja Física
+HT-2024248,2024-07-02,Suporte Notebook,Acessórios,Sudeste,Juliana Pereira,3,137.91,0.1,372.36,Entregue,App
+HT-2024466,2024-10-02,Notebook Gamer X,Notebooks,Nordeste,Bruno Alves,1,5333.56,0,5333.56,Cancelado,App
+HT-2024228,2024-04-25,Smartphone Z8 Lite,Smartphones,Norte,Juliana Pereira,3,1279.72,0,3839.16,Devolvido,Site
+HT-2024324,2024-03-03,Mouse Sem Fio,Acessórios,Norte,Bruno Alves,2,151.29,0,302.58,Entregue,Parceiro
+HT-2024177,2024-07-12,Notebook Ultra 13,Notebooks,Centro-Oeste,Patrícia Gomes,1,4720.9,0,4720.9,Entregue,Marketplace
+HT-2024408,2024-05-20,Controle USB,Periféricos,Centro-Oeste,Fernanda Costa,1,179.67,0,179.67,Cancelado,Marketplace
+HT-2024158,2024-11-18,Teclado Mecânico,Acessórios,Norte,Bruno Alves,2,379.72,0,759.44,Entregue,Loja Física
+HT-2024209,2024-04-10,Tablet Draw 10,Tablets,,Bruno Alves,4,1487.25,0,5949.0,Entregue,Site
+HT-2024420,2024-06-04,"Monitor 24"" Full HD",Monitores,Centro-Oeste,Bruno Alves,4,922.78,0,3691.12,Entregue,Loja Física
+HT-2024460,2024-09-22,Teclado Mecânico,Acessórios,Sudeste,Carlos Souza,1,410.69,0.15,349.09,Entregue,App
+HT-2024125,2024-02-07,Tablet Draw 10,Tablets,Norte,Fernanda Costa,1,1489.65,0,1489.65,Entregue,Marketplace
+HT-2024186,2024-07-02,Notebook Ultra 13,Notebooks,Centro-Oeste,Diego Santos,3,3986.49,0.15,10165.55,Entregue,Loja Física
+HT-2024155,2024-07-11,Smartphone Pro Max,Smartphones,Sudeste,Diego Santos,3,3480.47,0,10441.41,Em trânsito,Parceiro
+HT-2024191,2024-12-13,Smartphone Z8 Lite,Smartphones,Sudeste,Fernanda Costa,5,1516.17,0.1,6822.77,Entregue,Marketplace
+HT-2024376,2024-05-01,Smartphone Pro Max,Smartphones,Sudeste,Ana Lima,1,3610.6,0,3610.6,Entregue,Parceiro
+HT-2024317,2024-05-07,Placa de Vídeo GTX,Periféricos,Sul,Diego Santos,3,2718.4,0,8155.2,Entregue,Parceiro
+HT-2024104,2024-09-27,"Monitor 24"" Full HD",Monitores,Sudeste,Ana Lima,3,955.98,0,2867.94,Em trânsito,Parceiro
+HT-2024178,2024-02-25,Headset Gamer,Periféricos,Sul,Patrícia Gomes,1,463.15,0.05,439.99,Devolvido,
+HT-2024479,2024-04-15,Webcam HD,Acessórios,Centro-Oeste,Juliana Pereira,3,259.14,0,777.42,Entregue,Loja Física
+HT-2024354,2024-07-20,"Monitor Curvo 32""",Monitores,Nordeste,Fernanda Costa,1,2435.11,0,2435.11,Entregue,Site
+HT-2024168,2024-03-12,Placa de Vídeo GTX,Periféricos,Sudeste,Carlos Souza,2,2924.49,0.2,4679.18,Em trânsito,Marketplace
+HT-2024044,2024-09-29,"Monitor Curvo 32""",Monitores,Nordeste,Diego Santos,2,2336.9,0,4673.8,Entregue,Marketplace
+HT-2024004,2024-04-08,Tablet Draw 10,Tablets,Sul,Rafael Mendes,1,1453.75,0,1453.75,Em trânsito,Loja Física
+HT-2024030,2024-03-04,Tablet Pro 12,Tablets,Norte,Fernanda Costa,2,2903.13,0,5806.26,Entregue,Loja Física
+HT-2024102,2024-12-04,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Fernanda Costa,1,2592.46,0,2592.46,Cancelado,Site
+HT-2024002,2024-11-28,"Monitor 24"" Full HD",Monitores,Sudeste,Patrícia Gomes,1,889.87,0.1,800.88,Entregue,App
+HT-2024005,2024-04-17,Tablet Pro 12,Tablets,Sudeste,Rafael Mendes,2,3016.02,0,6032.04,Entregue,Loja Física
+HT-2024137,2024-03-15,Fone Bluetooth,Acessórios,Nordeste,Juliana Pereira,2,286.3,0,572.6,Cancelado,App
+HT-2024112,2024-10-05,"Monitor 27"" 4K",Monitores,Sul,Bruno Alves,2,1723.01,0,3446.02,Entregue,Marketplace
+HT-2024499,2024-08-04,Tablet Pro 12,Tablets,Sudeste,Diego Santos,2,2651.46,0,5302.92,Em trânsito,Parceiro
+HT-2024173,2024-08-10,Webcam HD,Acessórios,Sudeste,Diego Santos,3,248.63,0,745.89,Entregue,
+HT-2024302,2024-12-03,Smartphone Z8 Lite,Smartphones,Sudeste,Patrícia Gomes,1,1428.81,0,1428.81,Entregue,Parceiro
+HT-2024133,2024-11-18,Controle USB,Periféricos,Sul,Rafael Mendes,2,184.98,0,369.96,Entregue,Marketplace
+HT-2024301,2024-01-23,Smartphone Pro Max,Smartphones,Centro-Oeste,Fernanda Costa,1,3563.62,0,3563.62,Entregue,Marketplace
+HT-2024095,2024-12-15,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Bruno Alves,1,2944.48,0.15,2502.81,Em trânsito,Marketplace
+HT-2024368,2024-08-30,Smartphone Z10,Smartphones,Sul,Juliana Pereira,1,2064.1,0.1,1857.69,Devolvido,App
+HT-2024318,2024-10-21,Controle USB,Periféricos,Norte,Patrícia Gomes,5,198.63,0.15,844.18,Entregue,Parceiro
+HT-2024312,2024-07-23,Webcam HD,Acessórios,Sudeste,Carlos Souza,1,254.1,0,254.1,Cancelado,Parceiro
+HT-2024470,2024-03-27,Notebook Ultra 13,Notebooks,Sudeste,Carlos Souza,1,4707.58,0.05,4472.2,Entregue,Loja Física
+HT-2024231,2024-09-02,Smartphone Z10,Smartphones,Sul,Diego Santos,1,1990.42,0,1990.42,Em trânsito,Marketplace
+HT-2024382,2024-04-16,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Rafael Mendes,1,3078.33,0,3078.33,Entregue,App
+HT-2024468,2024-06-16,"Monitor 24"" Full HD",Monitores,Nordeste,Rafael Mendes,1,878.28,0.05,834.37,Entregue,Marketplace
+HT-2024341,2024-10-17,Smartphone Pro Max,Smartphones,Centro-Oeste,Fernanda Costa,2,3392.4,0,6784.8,Entregue,App
+HT-2024407,2024-08-30,Hub USB-C,Acessórios,Sudeste,,2,191.75,0,383.5,Entregue,Parceiro
+HT-2024379,2024-08-29,Smartphone Z10,Smartphones,Centro-Oeste,,1,2284.59,0,2284.59,Cancelado,Parceiro
+HT-2024434,2024-04-13,Mouse Sem Fio,Acessórios,Sul,Diego Santos,2,135.06,0,270.12,Entregue,App
+HT-2024404,2024-10-17,"Monitor Curvo 32""",Monitores,Sul,Fernanda Costa,2,2335.94,0.15,3971.1,Cancelado,Parceiro
+HT-2024448,2024-12-06,Mouse Sem Fio,Acessórios,Centro-Oeste,Carlos Souza,2,145.21,0,290.42,Entregue,Loja Física
+HT-2024355,2024-07-23,Suporte Notebook,Acessórios,Centro-Oeste,Rafael Mendes,1,136.06,0,136.06,Entregue,Parceiro
+HT-2024237,2024-02-21,Controle USB,Periféricos,,Patrícia Gomes,3,213.63,0.1,576.8,Cancelado,Parceiro
+HT-2024059,2024-08-20,Notebook Ultra 13,Notebooks,Norte,,1,4086.11,0.1,3677.5,Entregue,Loja Física
+HT-2024009,2024-02-28,Tablet Pro 12,Tablets,Sudeste,Diego Santos,1,3054.73,0,3054.73,Entregue,Marketplace
+HT-2024258,2024-05-14,Placa de Vídeo GTX,Periféricos,,Ana Lima,1,3063.85,0,3063.85,Em trânsito,Loja Física
+HT-2024387,2024-03-30,Notebook Ultra 13,Notebooks,Nordeste,Ana Lima,3,4543.99,0.15,11587.17,Em trânsito,App
+HT-2024356,2024-02-06,Webcam HD,Acessórios,Nordeste,Patrícia Gomes,4,249.85,0,999.4,Entregue,
+HT-2024182,2024-04-04,Smartphone Pro Max,Smartphones,Sudeste,,1,3609.08,0.05,3428.63,Entregue,Loja Física
+HT-2024130,2024-11-13,Teclado Mecânico,Acessórios,Centro-Oeste,,1,393.5,0,393.5,Entregue,Site
+HT-2024311,2024-05-26,Smartphone Z10,Smartphones,,Fernanda Costa,2,2323.89,0.05,4415.39,Cancelado,Marketplace
+HT-2024401,2024-04-18,Tablet Draw 10,Tablets,Norte,Patrícia Gomes,1,1590.96,0,1590.96,Entregue,
+HT-2024212,2024-12-24,Teclado Mecânico,Acessórios,Sudeste,Carlos Souza,1,385.32,0.15,327.52,Entregue,Loja Física
+HT-2024218,2024-05-07,Tablet Draw 10,Tablets,Centro-Oeste,Diego Santos,3,1755.51,0,5266.53,Entregue,Parceiro
+HT-2024262,2024-03-26,Notebook Pro 15,Notebooks,Sudeste,Carlos Souza,1,4051.97,0.15,3444.17,Entregue,Parceiro
+HT-2024056,2024-08-12,Notebook Ultra 13,Notebooks,Centro-Oeste,,2,4461.23,0.15,7584.09,Entregue,Parceiro
+HT-2024313,2024-11-06,"Monitor 27"" 4K",Monitores,Sul,Juliana Pereira,1,1927.45,0,1927.45,Entregue,Site
+HT-2024024,2024-10-09,Tablet Pro 12,Tablets,,Ana Lima,1,2934.31,0.15,2494.16,Entregue,App
+HT-2024406,2024-10-20,Tablet Pro 12,Tablets,Norte,Fernanda Costa,4,2853.21,0.1,10271.56,Entregue,Parceiro
+HT-2024283,2024-05-24,Notebook Gamer X,Notebooks,Nordeste,Diego Santos,1,6172.58,0.1,5555.32,Entregue,App
+HT-2024367,2024-11-06,Smartphone Pro Max,Smartphones,Nordeste,Fernanda Costa,2,3311.58,0,6623.16,Entregue,Parceiro
+HT-2024152,2024-01-09,Smartphone Z10,Smartphones,Sul,Rafael Mendes,2,2008.69,0,4017.38,Cancelado,Loja Física
+HT-2024316,2024-04-01,"Monitor 27"" 4K",Monitores,Sudeste,Diego Santos,3,1843.37,0,5530.11,Cancelado,App
+HT-2024268,2024-01-28,Headset Gamer,Periféricos,Centro-Oeste,Diego Santos,1,479.92,0.1,431.93,Cancelado,Marketplace
+HT-2024128,2024-09-15,"Monitor 24"" Full HD",Monitores,Nordeste,Diego Santos,1,847.78,0,847.78,Entregue,Site
+HT-2024413,2024-04-09,Suporte Notebook,Acessórios,Nordeste,Ana Lima,5,133.59,0,667.95,Entregue,Site
+HT-2024486,2024-02-02,"Monitor 27"" 4K",Monitores,Sudeste,Rafael Mendes,3,1964.2,0,5892.6,Entregue,Parceiro
+HT-2024451,2024-01-12,Notebook Gamer X,Notebooks,Centro-Oeste,Patrícia Gomes,2,6204.29,0.15,10547.29,Entregue,Marketplace
+HT-2024154,2024-10-12,Mousepad XL,Acessórios,Centro-Oeste,Ana Lima,2,96.33,0,192.66,Em trânsito,Loja Física
+HT-2024245,2024-08-26,Webcam HD,Acessórios,Norte,Juliana Pereira,1,263.38,0.2,210.7,Entregue,Site
+HT-2024041,2024-06-28,Smartphone Pro Max,Smartphones,Sul,Rafael Mendes,4,3197.12,0,12788.48,Entregue,Site
+HT-2024441,2024-10-14,Tablet Draw 10,Tablets,Nordeste,Rafael Mendes,1,1483.36,0,1483.36,Em trânsito,App
+HT-2024442,2024-01-28,Notebook Ultra 13,Notebooks,Sul,Diego Santos,1,4165.93,0,4165.93,Cancelado,Parceiro
+HT-2024149,2024-08-29,Notebook Ultra 13,Notebooks,Nordeste,Bruno Alves,3,4220.64,0.1,11395.73,Devolvido,Loja Física
+HT-2024043,2024-07-11,"Monitor Curvo 32""",Monitores,Norte,Carlos Souza,2,2254.26,0.1,4057.67,Entregue,Parceiro
+HT-2024269,2024-06-23,Teclado Mecânico,Acessórios,Sudeste,Diego Santos,1,392.71,0,392.71,Entregue,Loja Física
+HT-2024411,2024-12-15,"Monitor 27"" 4K",Monitores,,Patrícia Gomes,3,1764.23,0,5292.69,Cancelado,Parceiro
+HT-2024439,2024-01-01,Placa de Vídeo GTX,Periféricos,Sul,Juliana Pereira,3,2558.68,0,7676.04,Entregue,Marketplace
+HT-2024080,2024-03-16,Placa de Vídeo GTX,Periféricos,,Juliana Pereira,3,2520.69,0,7562.07,Em trânsito,
+HT-2024115,2024-01-30,Notebook Gamer X,Notebooks,Sudeste,,1,5958.49,0.1,5362.64,Entregue,Loja Física
+HT-2024238,2024-11-07,"Monitor 24"" Full HD",Monitores,Sul,,3,880.26,0.05,2508.74,Em trânsito,Marketplace
+HT-2024175,2024-06-12,Webcam HD,Acessórios,Norte,Patrícia Gomes,3,283.23,0,849.69,Entregue,Parceiro
+HT-2024345,2024-09-08,Headset Gamer,Periféricos,Nordeste,Bruno Alves,2,446.13,0,892.26,Em trânsito,Site
+HT-2024438,2024-03-23,Tablet Pro 12,Tablets,Nordeste,Diego Santos,2,3106.52,0,6213.04,Em trânsito,Loja Física
+HT-2024358,2024-11-13,Controle USB,Periféricos,Nordeste,Diego Santos,2,179.65,0,359.3,Entregue,App
+HT-2024219,2024-04-22,Notebook Ultra 13,Notebooks,Centro-Oeste,Rafael Mendes,5,3919.48,0,19597.4,Devolvido,Site
+HT-2024223,2024-07-10,Tablet Pro 12,Tablets,Sudeste,Patrícia Gomes,1,2948.87,0,2948.87,Em trânsito,Loja Física
+HT-2024096,2024-05-20,Hub USB-C,Acessórios,Sudeste,Ana Lima,1,183.4,0,183.4,Entregue,Site
+HT-2024315,2024-04-22,Tablet Draw 10,Tablets,Norte,Ana Lima,1,1694.99,0,1694.99,Entregue,Marketplace
+HT-2024333,2024-12-21,Teclado Mecânico,Acessórios,Sudeste,Carlos Souza,3,382.22,0,1146.66,Entregue,Marketplace
+HT-2024323,2024-03-24,Notebook Pro 15,Notebooks,Nordeste,Bruno Alves,1,4143.72,0.05,3936.53,Entregue,Marketplace
+HT-2024047,2024-05-21,Hub USB-C,Acessórios,Nordeste,Diego Santos,1,189.63,0,189.63,Entregue,App
+HT-2024217,2024-01-18,Mousepad XL,Acessórios,Centro-Oeste,Diego Santos,2,91.08,0,182.16,Entregue,Marketplace
+HT-2024308,2024-06-06,Suporte Notebook,Acessórios,Sul,Rafael Mendes,1,136.07,0,136.07,Entregue,App
+HT-2024417,2024-07-20,Smartphone Pro Max,Smartphones,Centro-Oeste,,1,3493.44,0.1,3144.1,Cancelado,Site
+HT-2024380,2024-02-14,"Monitor Curvo 32""",Monitores,Norte,Patrícia Gomes,4,2489.52,0.2,7966.46,Entregue,Marketplace
+HT-2024244,2024-08-30,Smartphone Pro Max,Smartphones,Centro-Oeste,Juliana Pereira,3,3270.31,0,9810.93,Cancelado,Marketplace
+HT-2024348,2024-09-30,Suporte Notebook,Acessórios,Norte,Bruno Alves,4,140.18,0.05,532.68,Entregue,Loja Física
+HT-2024229,2024-02-17,Webcam HD,Acessórios,Centro-Oeste,Patrícia Gomes,1,269.59,0.05,256.11,Entregue,Site
+HT-2024251,2024-08-22,Smartphone Z8 Lite,Smartphones,Norte,,1,1500.4,0,1500.4,Entregue,Site
+HT-2024103,2024-05-25,Placa de Vídeo GTX,Periféricos,Nordeste,Rafael Mendes,1,2957.87,0,2957.87,Entregue,Parceiro
+HT-2024263,2024-01-15,Placa de Vídeo GTX,Periféricos,Nordeste,Diego Santos,2,3011.7,0.1,5421.06,Entregue,Loja Física
+HT-2024189,2024-02-14,"Monitor 24"" Full HD",Monitores,Centro-Oeste,Bruno Alves,1,948.56,0.1,853.7,Em trânsito,Parceiro
+HT-2024050,2024-02-21,Headset Gamer,Periféricos,Centro-Oeste,Fernanda Costa,1,430.7,0,430.7,Entregue,Site
+HT-2024184,2024-10-27,Notebook Ultra 13,Notebooks,Norte,Carlos Souza,1,4171.74,0,4171.74,Entregue,App
+HT-2024497,2024-05-16,Webcam HD,Acessórios,Sudeste,Juliana Pereira,1,252.89,0,252.89,Cancelado,App
+HT-2024360,2024-12-21,Notebook Pro 15,Notebooks,Sul,Carlos Souza,1,3812.17,0.1,3430.95,Em trânsito,Loja Física
+HT-2024159,2024-06-12,Smartphone Z8 Lite,Smartphones,Sudeste,Ana Lima,1,1346.66,0.1,1211.99,Em trânsito,Parceiro
+HT-2024492,2024-07-30,Controle USB,Periféricos,Sudeste,Juliana Pereira,3,207.65,0.1,560.66,Entregue,Marketplace
+HT-2024462,2024-06-24,Smartphone Pro Max,Smartphones,Sudeste,Fernanda Costa,2,3362.32,0,6724.64,Cancelado,Marketplace
+HT-2024153,2024-03-12,Suporte Notebook,Acessórios,Centro-Oeste,Bruno Alves,4,122.14,0.05,464.13,Entregue,App
+HT-2024062,2024-05-04,"Monitor Curvo 32""",Monitores,Sudeste,Carlos Souza,1,2228.5,0.05,2117.07,Em trânsito,Loja Física
+HT-2024389,2024-01-23,Tablet Draw 10,Tablets,Sudeste,Ana Lima,3,1545.69,0,4637.07,Entregue,App
+HT-2024335,2024-07-09,"Monitor Curvo 32""",Monitores,Sudeste,Ana Lima,1,2538.83,0.1,2284.95,Entregue,Parceiro
+HT-2024332,2024-04-06,"Monitor Curvo 32""",Monitores,Nordeste,Patrícia Gomes,1,2368.82,0.05,2250.38,Entregue,Site
+HT-2024398,2024-07-13,Webcam HD,Acessórios,Nordeste,Ana Lima,1,266.51,0,266.51,Cancelado,Loja Física
+HT-2024207,2024-12-01,Mouse Sem Fio,Acessórios,Sul,Bruno Alves,2,146.5,0,293.0,Entregue,Site
+HT-2024199,2024-10-28,Tablet Pro 12,Tablets,Sudeste,Juliana Pereira,1,2812.92,0.1,2531.63,Entregue,App
+HT-2024444,2024-04-14,Mousepad XL,Acessórios,,Diego Santos,1,80.5,0.05,76.47,Entregue,Loja Física
+HT-2024107,2024-12-27,Hub USB-C,Acessórios,Sudeste,Patrícia Gomes,1,204.34,0,204.34,Entregue,Marketplace
+HT-2024011,2024-01-30,Smartphone Pro Max,Smartphones,Sul,Fernanda Costa,1,3811.78,0,3811.78,Entregue,Loja Física
+HT-2024496,2024-08-07,Suporte Notebook,Acessórios,Sul,Carlos Souza,4,119.95,0,479.8,Entregue,Loja Física
+HT-2024357,2024-06-28,Suporte Notebook,Acessórios,Sudeste,Rafael Mendes,1,132.18,0.15,112.35,Cancelado,App
+HT-2024123,2024-11-10,Mousepad XL,Acessórios,Centro-Oeste,,4,83.1,0,332.4,Em trânsito,Parceiro
+HT-2024092,2024-01-22,"Monitor 24"" Full HD",Monitores,Nordeste,Patrícia Gomes,1,891.76,0,891.76,Cancelado,Loja Física
+HT-2024131,2024-03-17,Mousepad XL,Acessórios,Nordeste,Juliana Pereira,4,82.59,0,330.36,Entregue,Parceiro
+HT-2024205,2024-01-16,Webcam HD,Acessórios,Sudeste,Carlos Souza,1,247.19,0.05,234.83,Entregue,Site
+HT-2024472,2024-03-09,Notebook Pro 15,Notebooks,Sul,Fernanda Costa,3,4084.44,0,12253.32,Entregue,Marketplace
+HT-2024196,2024-12-24,"Monitor Curvo 32""",Monitores,,Fernanda Costa,1,2202.86,0,2202.86,Entregue,Parceiro
+HT-2024309,2024-11-10,Tablet Draw 10,Tablets,Sul,Fernanda Costa,4,1490.5,0,5962.0,Entregue,Parceiro
+HT-2024281,2024-02-17,Mouse Sem Fio,Acessórios,Norte,Rafael Mendes,2,160.43,0,320.86,Devolvido,Parceiro
+HT-2024037,2024-04-19,Notebook Ultra 13,Notebooks,,Patrícia Gomes,2,4219.55,0,8439.1,Entregue,Parceiro
+HT-2024029,2024-04-07,Fone Bluetooth,Acessórios,Centro-Oeste,Rafael Mendes,1,311.49,0.15,264.77,Entregue,Site
+HT-2024471,2024-11-25,Webcam HD,Acessórios,Centro-Oeste,Juliana Pereira,4,267.63,0.2,856.42,Entregue,Loja Física
+HT-2024477,2024-06-25,Webcam HD,Acessórios,Centro-Oeste,Carlos Souza,2,251.3,0,502.6,Entregue,Marketplace
+HT-2024330,2024-11-19,Suporte Notebook,Acessórios,Norte,Diego Santos,2,129.61,0,259.22,Entregue,Site
+HT-2024025,2024-01-21,Mouse Sem Fio,Acessórios,Centro-Oeste,Patrícia Gomes,2,154.43,0,308.86,Devolvido,App
+HT-2024414,2024-05-08,Smartphone Z10,Smartphones,Norte,Carlos Souza,1,1989.52,0.15,1691.09,Entregue,Parceiro
+HT-2024067,2024-05-27,Smartphone Pro Max,Smartphones,,Diego Santos,5,3212.35,0.1,14455.58,Entregue,Marketplace
+HT-2024292,2024-08-07,Smartphone Z10,Smartphones,Nordeste,Juliana Pereira,3,2116.85,0.05,6033.02,Em trânsito,App
+HT-2024167,2024-06-10,Notebook Pro 15,Notebooks,Sudeste,Carlos Souza,3,3966.87,0.05,11305.58,Entregue,Parceiro
+HT-2024232,2024-11-24,Smartphone Z8 Lite,Smartphones,Norte,Diego Santos,1,1506.86,0,1506.86,Entregue,App
+HT-2024319,2024-01-17,Suporte Notebook,Acessórios,Sul,,2,126.26,0,252.52,Entregue,Site
+HT-2024336,2024-01-07,Notebook Gamer X,Notebooks,Sul,Rafael Mendes,3,5507.85,0,16523.55,Entregue,Site
+HT-2024487,2024-09-25,Webcam HD,Acessórios,Norte,Bruno Alves,1,278.92,0,278.92,Em trânsito,Loja Física
+HT-2024400,2024-10-08,Notebook Pro 15,Notebooks,Sudeste,Ana Lima,3,4057.58,0,12172.74,Cancelado,Loja Física
+HT-2024412,2024-08-09,Mousepad XL,Acessórios,Sul,Juliana Pereira,1,95.38,0,95.38,Cancelado,Loja Física
+HT-2024457,2024-09-03,Suporte Notebook,Acessórios,Sul,,2,138.5,0,277.0,Entregue,Parceiro
+HT-2024305,2024-04-27,Controle USB,Periféricos,Sudeste,Carlos Souza,1,210.52,0.05,199.99,Entregue,App
+HT-2024138,2024-03-11,Notebook Gamer X,Notebooks,Centro-Oeste,Rafael Mendes,1,6078.39,0,6078.39,Entregue,Site
+HT-2024322,2024-03-17,"Monitor 24"" Full HD",Monitores,Centro-Oeste,Bruno Alves,1,840.85,0.2,672.68,Em trânsito,Marketplace
+HT-2024233,2024-02-19,Notebook Gamer X,Notebooks,Centro-Oeste,Rafael Mendes,2,5617.83,0.2,8988.53,Entregue,Loja Física
+HT-2024246,2024-05-21,Teclado Mecânico,Acessórios,Sul,Patrícia Gomes,2,364.75,0,729.5,Cancelado,App
+HT-2024338,2024-04-30,Tablet Pro 12,Tablets,Sul,Patrícia Gomes,1,2797.25,0,2797.25,Em trânsito,Site
+HT-2024363,2024-07-20,Tablet Draw 10,Tablets,Centro-Oeste,Rafael Mendes,1,1467.18,0.15,1247.1,Entregue,Parceiro
+HT-2024236,2024-09-23,"Monitor 24"" Full HD",Monitores,Sudeste,Carlos Souza,2,950.52,0,1901.04,Entregue,Parceiro
+HT-2024042,2024-04-21,"Monitor Curvo 32""",Monitores,Sul,Fernanda Costa,1,2282.05,0.05,2167.95,Devolvido,Site
+HT-2024015,2024-02-20,Notebook Ultra 13,Notebooks,Sudeste,Rafael Mendes,3,4495.22,0,13485.66,Entregue,App
+HT-2024079,2024-11-23,Notebook Pro 15,Notebooks,Centro-Oeste,Rafael Mendes,1,4122.64,0,4122.64,Entregue,Parceiro
+HT-2024166,2024-01-22,Smartphone Z10,Smartphones,Centro-Oeste,Ana Lima,2,2375.48,0.05,4513.41,Cancelado,Marketplace
+HT-2024055,2024-10-28,Tablet Draw 10,Tablets,Norte,Fernanda Costa,2,1575.06,0.05,2992.61,Entregue,App
+HT-2024303,2024-12-17,"Monitor Curvo 32""",Monitores,Sudeste,Ana Lima,1,2442.47,0,2442.47,Em trânsito,Parceiro
+HT-2024192,2024-10-22,Tablet Pro 12,Tablets,Sul,Patrícia Gomes,1,2973.11,0,2973.11,Entregue,Marketplace
+HT-2024202,2024-01-31,Controle USB,Periféricos,Nordeste,Patrícia Gomes,2,199.26,0,398.52,Cancelado,Site
+HT-2024063,2024-06-01,Placa de Vídeo GTX,Periféricos,Nordeste,Diego Santos,2,2843.74,0.1,5118.73,Entregue,Parceiro
+HT-2024397,2024-09-06,Notebook Gamer X,Notebooks,Nordeste,,1,5910.43,0,5910.43,Entregue,Loja Física
+HT-2024349,2024-07-11,Placa de Vídeo GTX,Periféricos,Nordeste,Patrícia Gomes,1,3037.56,0.15,2581.93,Entregue,Site
+HT-2024423,2024-03-01,Smartphone Pro Max,Smartphones,,Fernanda Costa,1,3616.09,0.05,3435.29,Cancelado,App
+HT-2024014,2024-10-19,Suporte Notebook,Acessórios,Norte,Carlos Souza,1,122.37,0,122.37,Entregue,Loja Física
+HT-2024169,2024-06-16,Notebook Gamer X,Notebooks,Norte,Patrícia Gomes,5,5536.1,0,27680.5,Entregue,Parceiro
+HT-2024049,2024-03-02,Tablet Draw 10,Tablets,Sudeste,Rafael Mendes,2,1540.01,0.15,2618.02,Entregue,Loja Física
+HT-2024347,2024-10-12,"Monitor Curvo 32""",Monitores,Nordeste,Patrícia Gomes,2,2209.73,0,4419.46,Em trânsito,App
+HT-2024485,2024-05-19,Smartphone Z10,Smartphones,Centro-Oeste,,3,2092.74,0.05,5964.31,Entregue,Site
+HT-2024394,2024-06-18,Controle USB,Periféricos,Norte,Diego Santos,1,197.14,0,197.14,Entregue,App
+HT-2024127,2024-03-22,Controle USB,Periféricos,Sudeste,Diego Santos,2,216.26,0,432.52,Devolvido,
+HT-2024040,2024-05-13,"Monitor 27"" 4K",Monitores,Nordeste,Juliana Pereira,1,1789.49,0.1,1610.54,Em trânsito,
+HT-2024214,2024-11-01,"Monitor 27"" 4K",Monitores,Sul,Fernanda Costa,2,1920.25,0,3840.5,Entregue,Site
+HT-2024422,2024-10-30,Smartphone Z8 Lite,Smartphones,Nordeste,,3,1367.88,0.05,3898.46,Devolvido,Site
+HT-2024293,2024-06-05,"Monitor Curvo 32""",Monitores,Norte,Fernanda Costa,2,2211.32,0,4422.64,Em trânsito,App
+HT-2024393,2024-02-19,"Monitor 27"" 4K",Monitores,Sudeste,Rafael Mendes,2,1969.06,0,3938.12,Entregue,Parceiro
+HT-2024270,2024-07-20,Smartphone Z8 Lite,Smartphones,Centro-Oeste,Ana Lima,1,1489.81,0,1489.81,Em trânsito,Parceiro
+HT-2024003,2024-07-02,Controle USB,Periféricos,Centro-Oeste,Carlos Souza,3,203.13,0.05,578.92,Entregue,Parceiro
+HT-2024299,2024-04-24,Suporte Notebook,Acessórios,Sudeste,Ana Lima,3,125.2,0,375.6,Entregue,App
+HT-2024109,2024-02-13,Suporte Notebook,Acessórios,Sudeste,Ana Lima,2,117.85,0,235.7,Entregue,
+HT-2024300,2024-03-21,Fone Bluetooth,Acessórios,Sul,Diego Santos,1,308.63,0,308.63,Cancelado,Loja Física
+HT-2024340,2024-11-26,Controle USB,Periféricos,Sudeste,Juliana Pereira,1,208.28,0,208.28,Em trânsito,Loja Física
+HT-2024289,2024-02-13,Mouse Sem Fio,Acessórios,Nordeste,Fernanda Costa,4,156.4,0,625.6,Entregue,App
+HT-2024140,2024-10-20,Smartphone Pro Max,Smartphones,,Patrícia Gomes,3,3666.03,0,10998.09,Em trânsito,App
+HT-2024261,2024-08-12,Suporte Notebook,Acessórios,Sudeste,Carlos Souza,1,138.76,0.1,124.88,Devolvido,Marketplace
+HT-2024384,2024-03-10,"Monitor 24"" Full HD",Monitores,Norte,Diego Santos,3,921.87,0,2765.61,Em trânsito,Loja Física
+HT-2024087,2024-05-22,Hub USB-C,Acessórios,Sudeste,,3,200.61,0.2,481.46,Cancelado,Marketplace
+HT-2024093,2024-11-12,Tablet Pro 12,Tablets,Centro-Oeste,Patrícia Gomes,3,2660.2,0,7980.6,Entregue,Loja Física
+HT-2024146,2024-05-06,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,2,1607.16,0,3214.32,Entregue,Parceiro
+HT-2024105,2024-02-12,Headset Gamer,Periféricos,Centro-Oeste,Carlos Souza,4,428.6,0,1714.4,Entregue,Loja Física
+HT-2024048,2024-02-17,Mouse Sem Fio,Acessórios,Centro-Oeste,Bruno Alves,1,146.15,0.05,138.84,Entregue,Parceiro
+HT-2024179,2024-09-18,Tablet Draw 10,Tablets,Centro-Oeste,Fernanda Costa,1,1581.66,0.1,1423.49,Entregue,Site
+HT-2024064,2024-12-08,Controle USB,Periféricos,,Patrícia Gomes,2,180.84,0.05,343.6,Devolvido,App
+HT-2024076,2024-02-02,Tablet Pro 12,Tablets,Centro-Oeste,Ana Lima,1,3136.36,0,3136.36,Entregue,Loja Física
+HT-2024369,2024-08-12,Placa de Vídeo GTX,Periféricos,Sudeste,Patrícia Gomes,1,2793.37,0,2793.37,Entregue,Site
+HT-2024058,2024-11-21,Notebook Ultra 13,Notebooks,Sudeste,Bruno Alves,1,4168.28,0.05,3959.87,Entregue,Loja Física
+HT-2024253,2024-09-28,Smartphone Z10,Smartphones,Norte,Juliana Pereira,2,2276.73,0,4553.46,Entregue,Loja Física
+HT-2024235,2024-03-05,Notebook Ultra 13,Notebooks,Sudeste,Juliana Pereira,2,3936.48,0,7872.96,Entregue,Site
+HT-2024249,2024-12-14,Tablet Draw 10,Tablets,Nordeste,Bruno Alves,1,1510.18,0.1,1359.16,Entregue,Parceiro
+HT-2024288,2024-10-06,Mouse Sem Fio,Acessórios,Sudeste,,3,142.98,0.15,364.6,Entregue,Site
+HT-2024494,2024-11-28,Placa de Vídeo GTX,Periféricos,Nordeste,Fernanda Costa,3,2902.98,0,8708.94,Entregue,Parceiro
+HT-2024183,2024-02-02,Hub USB-C,Acessórios,Sudeste,Diego Santos,2,200.32,0,400.64,Entregue,Loja Física
+HT-2024227,2024-08-12,Tablet Pro 12,Tablets,Nordeste,Bruno Alves,3,3170.99,0,9512.97,Entregue,Site
+HT-2024021,2024-10-02,Smartphone Pro Max,Smartphones,Sudeste,Bruno Alves,4,3334.69,0.1,12004.88,Entregue,Loja Física
+HT-2024254,2024-05-28,"Monitor Curvo 32""",Monitores,Sudeste,Bruno Alves,2,2408.73,0,4817.46,Devolvido,Loja Física
+HT-2024489,2024-03-15,Webcam HD,Acessórios,Nordeste,Ana Lima,3,270.17,0,810.51,Cancelado,Site
+HT-2024467,2024-07-13,"Monitor 24"" Full HD",Monitores,Sudeste,Carlos Souza,1,901.56,0.1,811.4,Entregue,Loja Física
+HT-2024498,2024-05-14,Smartphone Pro Max,Smartphones,Sul,Carlos Souza,1,3464.69,0.05,3291.46,Entregue,Marketplace
+HT-2024362,2024-06-29,Teclado Mecânico,Acessórios,Sul,Juliana Pereira,5,368.48,0,1842.4,Em trânsito,Site
+HT-2024084,2024-10-09,Tablet Draw 10,Tablets,Nordeste,Patrícia Gomes,3,1576.64,0,4729.92,Entregue,Site
+HT-2024490,2024-06-07,Tablet Pro 12,Tablets,Sudeste,Diego Santos,2,3132.75,0,6265.5,Entregue,Loja Física
+HT-2024241,2024-03-29,Smartphone Z10,Smartphones,Norte,Rafael Mendes,1,2347.2,0,2347.2,Entregue,Loja Física
+HT-2024019,2024-10-31,Notebook Gamer X,Notebooks,Centro-Oeste,Rafael Mendes,1,6218.64,0.15,5285.84,Entregue,Site
+HT-2024094,2024-02-09,Mousepad XL,Acessórios,Norte,Bruno Alves,2,82.13,0.15,139.62,Cancelado,App
+HT-2024118,2024-04-12,Notebook Pro 15,Notebooks,Nordeste,Carlos Souza,1,4174.13,0.1,3756.72,Devolvido,Marketplace
+HT-2024453,2024-07-31,Controle USB,Periféricos,Nordeste,Patrícia Gomes,3,190.59,0.2,457.42,Entregue,Parceiro
+HT-2024077,2024-07-08,Tablet Pro 12,Tablets,Sul,,2,2949.64,0.1,5309.35,Entregue,Marketplace
+HT-2024097,2024-01-22,"Monitor Curvo 32""",Monitores,Sudeste,Ana Lima,1,2471.85,0,2471.85,Em trânsito,Marketplace
+HT-2024028,2024-10-01,Fone Bluetooth,Acessórios,Sudeste,Ana Lima,5,276.0,0,1380.0,Entregue,Marketplace
+HT-2024226,2024-02-15,Placa de Vídeo GTX,Periféricos,Sul,Juliana Pereira,2,2894.18,0,5788.36,Entregue,Site
+HT-2024409,2024-09-27,Headset Gamer,Periféricos,Sudeste,Diego Santos,1,434.89,0,434.89,Em trânsito,Loja Física
+HT-2024326,2024-06-09,Teclado Mecânico,Acessórios,Nordeste,Bruno Alves,2,405.37,0,810.74,Cancelado,Parceiro
+HT-2024337,2024-06-08,Mouse Sem Fio,Acessórios,Sudeste,Carlos Souza,1,152.85,0.15,129.92,Entregue,App
+HT-2024437,2024-12-22,"Monitor 27"" 4K",Monitores,Nordeste,Rafael Mendes,2,1800.45,0,3600.9,Entregue,
+HT-2024285,2024-11-27,Notebook Gamer X,Notebooks,Sudeste,Carlos Souza,1,6014.77,0.05,5714.03,Entregue,Marketplace
+HT-2024078,2024-07-04,Notebook Gamer X,Notebooks,Sul,Patrícia Gomes,4,5645.14,0.05,21451.53,Entregue,Site
+HT-2024392,2024-10-30,Tablet Pro 12,Tablets,Centro-Oeste,Carlos Souza,1,2966.44,0.1,2669.8,Em trânsito,Loja Física
+HT-2024252,2024-03-22,"Monitor 24"" Full HD",Monitores,Nordeste,Diego Santos,1,832.37,0,832.37,Entregue,Site
+HT-2024378,2024-11-08,Tablet Draw 10,Tablets,Nordeste,Carlos Souza,2,1748.12,0,3496.24,Entregue,Loja Física
+HT-2024162,2024-11-17,"Monitor 27"" 4K",Monitores,,Diego Santos,2,1732.06,0.15,2944.5,Entregue,Parceiro
+HT-2024085,2024-12-17,Notebook Pro 15,Notebooks,Norte,Fernanda Costa,1,4157.72,0,4157.72,Entregue,Parceiro
+HT-2024458,2024-08-24,Tablet Draw 10,Tablets,Sudeste,Ana Lima,1,1553.39,0,1553.39,Entregue,Site
+HT-2024224,2024-11-10,Smartphone Pro Max,Smartphones,Norte,Fernanda Costa,1,3561.25,0,3561.25,Entregue,Site
+HT-2024488,2024-02-24,Smartphone Z10,Smartphones,Sudeste,Ana Lima,1,2405.67,0,2405.67,Entregue,Site
+HT-2024265,2024-10-12,Hub USB-C,Acessórios,Nordeste,Diego Santos,4,170.54,0,682.16,Em trânsito,Site
+HT-2024136,2024-05-27,Tablet Draw 10,Tablets,Centro-Oeste,Juliana Pereira,1,1659.84,0,1659.84,Entregue,Parceiro
+HT-2024390,2024-08-13,Tablet Draw 10,Tablets,Sudeste,Carlos Souza,1,1526.29,0,1526.29,Entregue,Marketplace
+HT-2024425,2024-02-24,Notebook Ultra 13,Notebooks,Sudeste,Patrícia Gomes,2,4380.66,0,8761.32,Entregue,Loja Física
+HT-2024314,2024-10-21,Webcam HD,Acessórios,Norte,Diego Santos,2,283.14,0.1,509.65,Cancelado,Parceiro
+HT-2024135,2024-06-24,Suporte Notebook,Acessórios,Norte,Diego Santos,3,133.54,0.05,380.59,Entregue,App
+HT-2024449,2024-10-06,Suporte Notebook,Acessórios,Centro-Oeste,Fernanda Costa,1,132.8,0.1,119.52,Em trânsito,Loja Física
+HT-2024463,2024-02-27,Notebook Pro 15,Notebooks,Nordeste,Ana Lima,3,4113.21,0,12339.63,Entregue,Site
+HT-2024145,2024-12-12,Hub USB-C,Acessórios,Centro-Oeste,Bruno Alves,1,178.38,0,178.38,Entregue,Parceiro
+HT-2024221,2024-12-24,Mousepad XL,Acessórios,Nordeste,Juliana Pereira,4,82.63,0.1,297.47,Entregue,Site
+HT-2024475,2024-07-18,"Monitor 24"" Full HD",Monitores,Centro-Oeste,Diego Santos,1,911.38,0.05,865.81,Entregue,App
+HT-2024185,2024-08-02,Hub USB-C,Acessórios,Centro-Oeste,Fernanda Costa,1,191.83,0,191.83,Entregue,Loja Física
+HT-2024383,2024-10-08,Fone Bluetooth,Acessórios,Nordeste,Ana Lima,1,275.91,0,275.91,Entregue,Marketplace
+HT-2024144,2024-06-17,Fone Bluetooth,Acessórios,Sul,Diego Santos,1,284.74,0,284.74,Entregue,Loja Física
+HT-2024428,2024-08-31,Tablet Draw 10,Tablets,Nordeste,Rafael Mendes,2,1505.03,0,3010.06,Em trânsito,Parceiro
+HT-2024447,2024-04-03,Smartphone Pro Max,Smartphones,Sul,Carlos Souza,2,3633.96,0,7267.92,Entregue,App
+HT-2024256,2024-10-31,Notebook Gamer X,Notebooks,Sul,Patrícia Gomes,3,5344.49,0,16033.47,Entregue,Site
+HT-2024066,2024-07-22,Tablet Draw 10,Tablets,,Bruno Alves,3,1711.49,0.1,4621.02,Entregue,Loja Física
+HT-2024023,2024-11-20,Suporte Notebook,Acessórios,Nordeste,Juliana Pereira,4,122.58,0,490.32,Entregue,Marketplace
+HT-2024161,2024-10-06,"Monitor 24"" Full HD",Monitores,Nordeste,Ana Lima,2,973.96,0.05,1850.52,Entregue,Site
+HT-2024060,2024-08-14,Headset Gamer,Periféricos,Nordeste,Diego Santos,2,422.38,0.15,718.05,Entregue,Parceiro
+HT-2024134,2024-11-09,Placa de Vídeo GTX,Periféricos,Centro-Oeste,Bruno Alves,2,2926.3,0,5852.6,Devolvido,Loja Física
+HT-2024073,2024-05-31,Webcam HD,Acessórios,Norte,Juliana Pereira,1,242.2,0,242.2,Em trânsito,Marketplace
+HT-2024222,2024-01-01,Mouse Sem Fio,Acessórios,Sul,Ana Lima,1,158.13,0,158.13,Entregue,App
+HT-2024272,2024-12-02,Webcam HD,Acessórios,Sudeste,Juliana Pereira,2,254.79,0.05,484.1,Entregue,Marketplace
+HT-2024364,2024-10-04,Smartphone Z10,Smartphones,Sudeste,Fernanda Costa,2,2266.06,0.05,4305.51,Entregue,Parceiro
+HT-2024163,2024-05-26,Notebook Gamer X,Notebooks,Centro-Oeste,Carlos Souza,2,6162.2,0.1,11091.96,Entregue,App
+HT-2024046,2024-08-18,Smartphone Z8 Lite,Smartphones,Nordeste,Bruno Alves,2,1418.54,0,2837.08,Entregue,App
+HT-2024068,2024-07-10,"Monitor 24"" Full HD",Monitores,Sudeste,Fernanda Costa,1,853.01,0.05,810.36,Entregue,Parceiro
+HT-2024240,2024-04-18,Controle USB,Periféricos,Sul,Fernanda Costa,3,208.59,0.1,563.19,Entregue,Parceiro
+HT-2024450,2024-12-13,Fone Bluetooth,Acessórios,Sul,Bruno Alves,3,293.12,0,879.36,Entregue,App
+HT-2024174,2024-11-13,Controle USB,Periféricos,Centro-Oeste,Fernanda Costa,1,196.62,0.1,176.96,Entregue,Parceiro

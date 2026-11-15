@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claude Code Skills — From Data to Business Insights | Bruno Moreau</title>
+  <meta name="description" content="A practical case study exploring how reusable AI workflows, Claude Code and Python can transform business data into structured insights. By Bruno Moreau.">
+  <meta name="author" content="Bruno Moreau">
+  <meta name="theme-color" content="#FAFAF8">
+  <meta property="og:title" content="Claude Code Skills — From Data to Business Insights">
+  <meta property="og:description" content="Reusable AI workflows, Claude Code and Python applied to 500 sales records: data quality, 6 charts and an executive report.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23D4631A'/%3E%3Cpath d='M9 22V10h3v12zm5.5 0v-7h3v7zm5.5 0v-4h3v4z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation" data-i18n-aria="navLabel">
+      <a class="brand" href="#overview" aria-label="Back to top" data-i18n-aria="brandLabel">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M9 22V10h3v12zm5.5 0v-7h3v7zm5.5 0v-4h3v4z" fill="#fff"/></svg>
+        </span>
+        <span class="brand-text">Data&nbsp;→&nbsp;Insights</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#overview" data-i18n="navOverview">Overview</a></li>
+        <li><a href="#stack" data-i18n="navStack">Technology</a></li>
+        <li><a href="#process" data-i18n="navProcess">Execution</a></li>
+        <li><a href="#results" data-i18n="navResults">Results</a></li>
+        <li><a href="#conclusions" data-i18n="navInsights">Takeaways</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language" data-i18n-aria="langLabel">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="pt" aria-pressed="false">PT</button>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu" data-i18n-aria="menuOpen">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  </header>
+
+  <main id="main">
+    <!-- ============ 01 HERO / OVERVIEW ============ -->
+    <section class="hero" id="overview" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow reveal"><span class="dot" aria-hidden="true"></span><span data-i18n="heroEyebrow">Practical case study · Claude Code · Python · Business Analytics</span></p>
+        <h1 id="hero-title" class="hero-title reveal" data-i18n-html="heroTitle">From Raw Data<br>to <em>Business Insights</em></h1>
+        <p class="hero-sub reveal" data-i18n="heroSub">Designing reusable AI workflows to transform business data into actionable insights.</p>
+
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="#process" data-i18n="ctaExplore">Explore Project</a>
+          <a class="btn btn-ghost" href="#results"><span data-i18n="ctaResults">View Results</span> <span aria-hidden="true">→</span></a>
+        </div>
+
+        <ul class="kpi-row reveal" aria-label="Project at a glance" data-i18n-aria="kpiLabel">
+          <li class="kpi"><span class="kpi-num" data-count="500">500</span><span class="kpi-label" data-i18n="kpiRecords">sales records</span></li>
+          <li class="kpi"><span class="kpi-num" data-count="12">12</span><span class="kpi-label" data-i18n="kpiColumns">columns</span></li>
+          <li class="kpi"><span class="kpi-num" data-count="3">3</span><span class="kpi-label" data-i18n="kpiSkills">core Skills</span></li>
+          <li class="kpi"><span class="kpi-num" data-count="6">6</span><span class="kpi-label" data-i18n="kpiCharts">charts produced</span></li>
+        </ul>
+      </div>
+
+      <div class="container problem-grid">
+        <article class="problem-card reveal">
+          <span class="tag" data-i18n="problemTag">The problem</span>
+          <h2 data-i18n="problemTitle">Raw data is not yet information.</h2>
+          <p data-i18n="problemText">Companies hold large volumes of sales data, but turning raw records into reliable analysis requires consistent procedures for validation, processing and visualization — every single time.</p>
+        </article>
+        <article class="problem-card reveal">
+          <span class="tag tag-accent" data-i18n="approachTag">The approach</span>
+          <h2 data-i18n="approachTitle">Write the procedure once. Reuse it.</h2>
+          <p data-i18n="approachText">This project used Claude Code, Python and three reusable Skills — written instructions that standardize how data is profiled, charted and reported — and applied them to a year of retail sales.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 02 TECHNOLOGY ============ -->
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2 id="stack-title" data-i18n="stackTitle">Technology</h2>
+          <p data-i18n="stackLead">A deliberately small stack. Each tool has one clear job.</p>
+        </header>
+
+        <div class="tech-grid">
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 17l6-5-6-5M12 19h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Claude Code</h3>
+            <p data-i18n="techClaudeCode">AI-assisted execution and development environment. Reads the project rules, runs the Skills and executes Python.</p>
+            <span class="evidence" data-i18n="evProject">Project rules: .claude/CLAUDE.md</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Claude Skills</h3>
+            <p data-i18n="techSkills">Reusable instructions in SKILL.md files that standardize a procedure: inputs, steps, rules and output format.</p>
+            <span class="evidence" data-i18n="evSkills">3 core + 2 experimental</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 3h5a3 3 0 013 3v4H9a3 3 0 00-3 3v2H5a2 2 0 01-2-2V8a5 5 0 015-5zM16 21h-5a3 3 0 01-3-3v-4h7a3 3 0 003-3V9h1a2 2 0 012 2v5a5 5 0 01-5 5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Python</h3>
+            <p data-i18n="techPython">Data processing and visualization. Run inline (stdin) by design — the project rules forbid leaving script files behind.</p>
+            <span class="evidence" data-i18n="evPython">No .py files, by rule</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 10h18M9 10v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Pandas</h3>
+            <p data-i18n="techPandas">Data manipulation and analysis: profiling, null counts, IQR outliers, integrity checks and aggregations.</p>
+            <span class="evidence" data-i18n="evPandas">Listed in data-profile-conventions</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Matplotlib / Seaborn</h3>
+            <p data-i18n-html="techViz"><strong>Matplotlib</strong> is the library specified by the chart-patterns protocol (PNG, 150 dpi, no plt.show()). <strong>Seaborn</strong> is listed as available in the Skills; its use in a specific chart is not verifiable from the outputs alone.</p>
+            <span class="evidence" data-i18n="evViz">Specified vs. documented</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6zM9 12h7M9 15h7M9 18h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>CSV</h3>
+            <p data-i18n="techCsv">Dataset format: 500 orders from 2024 across 12 columns — product, category, region, seller, quantity, price, discount, total, status and channel.</p>
+            <span class="evidence" data-i18n="evCsv">Read-only source</span>
+          </article>
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3zM6 15V9l2.5 3L11 9v6M15 12l2 3 2-3M17 9v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Markdown</h3>
+            <p data-i18n="techMd">Project rules, Skill definitions and the final executive report are all plain Markdown — readable, versionable, reusable.</p>
+            <span class="evidence" data-i18n="evMd">CLAUDE.md · SKILL.md · report</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 EXECUTION ============ -->
+    <section class="section section-alt" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2 id="process-title" data-i18n="processTitle">Execution</h2>
+          <p data-i18n="processLead">Five steps, from a raw CSV to a decision-ready report.</p>
+        </header>
+
+        <!-- Flow diagram -->
+        <figure class="flow reveal" aria-labelledby="flow-cap">
+          <ol class="flow-list">
+            <li class="flow-node"><span class="flow-ico" aria-hidden="true">▤</span><span data-i18n="flowDataset">Dataset</span><small>CSV · 500 × 12</small></li>
+            <li class="flow-node"><span class="flow-ico" aria-hidden="true">›_</span><span>Claude Code</span><small data-i18n="flowCCsub">reads rules</small></li>
+            <li class="flow-node flow-node-accent"><span class="flow-ico" aria-hidden="true">◆</span><span>Skills</span><small data-i18n="flowSkillsSub">standard procedures</small></li>
+            <li class="flow-node"><span class="flow-ico" aria-hidden="true">∑</span><span data-i18n="flowAnalysis">Analysis</span><small>Python · pandas</small></li>
+            <li class="flow-node"><span class="flow-ico" aria-hidden="true">◧</span><span data-i18n="flowOutputs">Charts &amp; Report</span><small data-i18n="flowOutSub">6 PNG · 1 .md</small></li>
+          </ol>
+          <figcaption id="flow-cap" class="flow-cap" data-i18n="flowCap">Skills are instructions, not autonomous agents: Claude Code follows them when the task matches.</figcaption>
+        </figure>
+
+        <!-- Timeline -->
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-num">01</span>
+            <div>
+              <h3 data-i18n="tlh1">Data Preparation</h3>
+              <p data-i18n="tl1">Structure and quality checks on the CSV. Fixes applied to the reference file: the “Acessórios” category standardized, 7 discounts recalculated and 3 order totals corrected.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">02</span>
+            <div>
+              <h3 data-i18n="tlh2">Reusable Skills</h3>
+              <p data-i18n-html="tl2">Three core Skills written to standardize the work: <code>data-profile-conventions</code>, <code>chart-patterns</code> and <code>report-style</code>.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">03</span>
+            <div>
+              <h3 data-i18n="tlh3">Data Analysis</h3>
+              <p data-i18n="tl3">Exploration of the 500 orders by category, product, region, seller, channel, status and month.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">04</span>
+            <div>
+              <h3 data-i18n="tlh4">Data Visualization</h3>
+              <p data-i18n="tl4">Six charts produced from the dataset with one visual standard: orange #D4631A + dark gray, bold titles, labeled axes, subtle grid, 150 dpi.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num">05</span>
+            <div>
+              <h3 data-i18n="tlh5">Executive Reporting</h3>
+              <p data-i18n="tl5">Findings organized in an executive report: conclusion first, then evidence, every number tied to a source, limitations stated.</p>
+            </div>
+          </li>
+        </ol>
+
+        <!-- Skills -->
+        <div class="subhead reveal">
+          <h3 data-i18n="skillsTitle">Skills architecture</h3>
+          <p data-i18n="skillsLead">Each Skill defines a role, a protocol, absolute rules and an output format. Click a card to read the real excerpt.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1 -->
+          <article class="skill-card reveal" data-skill>
+            <div class="skill-top">
+              <span class="badge badge-core" data-i18n="badgeCore">Core</span>
+              <span class="skill-step">01</span>
+            </div>
+            <h4><code>data-profile-conventions</code></h4>
+            <p class="skill-goal" data-i18n="s1Goal">Profiles the quality of any CSV dataset and reports objective facts only — no business recommendations.</p>
+            <dl class="skill-meta">
+              <div><dt data-i18n="procLabel">Procedure</dt><dd data-i18n="s1Proc">Shape and types → % nulls → IQR outliers → category spelling → duplicates, dates, impossible values, derived-column formula.</dd></div>
+              <div><dt data-i18n="benefitLabel">Benefit</dt><dd data-i18n="s1Benefit">Every dataset is checked the same way before anyone draws a conclusion.</dd></div>
+            </dl>
+            <button class="skill-toggle" type="button" aria-expanded="false" data-i18n="showExcerpt">Show SKILL.md excerpt</button>
+            <div class="skill-excerpt" hidden>
+<pre><code>## Regras absolutas
+
+- NUNCA modifique o arquivo original
+- NUNCA crie arquivos — o relatório vai só na conversa
+- NUNCA faça recomendações — só reporte fatos
+- Percentuais de nulos: sempre com 1 casa decimal (ex: 8.8%)</code></pre>
+              <p class="excerpt-src">.claude/skills/data-profile-conventions/SKILL.md</p>
+            </div>
+          </article>
+
+          <!-- Skill 2 -->
+          <article class="skill-card reveal" data-skill>
+            <div class="skill-top">
+              <span class="badge badge-core" data-i18n="badgeCore">Core</span>
+              <span class="skill-step">02</span>
+            </div>
+            <h4><code>chart-patterns</code></h4>
+            <p class="skill-goal" data-i18n="s2Goal">Generates clear, standardized charts with Python and matplotlib, choosing the chart type from the question.</p>
+            <dl class="skill-meta">
+              <div><dt data-i18n="procLabel">Procedure</dt><dd data-i18n="s2Proc">Read data → pick type (distribution, comparison, time, correlation) → run Python inline → save PNG to output/charts/.</dd></div>
+              <div><dt data-i18n="benefitLabel">Benefit</dt><dd data-i18n="s2Benefit">Six charts that look like one coherent set, with predictable file names.</dd></div>
+            </dl>
+            <button class="skill-toggle" type="button" aria-expanded="false" data-i18n="showExcerpt">Show SKILL.md excerpt</button>
+            <div class="skill-excerpt" hidden>
+<pre><code>## Padrões visuais obrigatórios
+
+- Paleta: #D4631A (laranja), #2D2D2D (cinza escuro)
+- Título: bold, tamanho 14
+- Sempre incluir: título, labels dos eixos, grid sutil
+- Resolução: 150 dpi mínimo | Formato: PNG</code></pre>
+              <p class="excerpt-src">.claude/skills/chart-patterns/SKILL.md</p>
+            </div>
+          </article>
+
+          <!-- Skill 3 -->
+          <article class="skill-card reveal" data-skill>
+            <div class="skill-top">
+              <span class="badge badge-core" data-i18n="badgeCore">Core</span>
+              <span class="skill-step">03</span>
+            </div>
+            <h4><code>report-style</code></h4>
+            <p class="skill-goal" data-i18n="s3Goal">Turns raw analysis into a clear executive narrative for decision-makers. Invoked manually only.</p>
+            <dl class="skill-meta">
+              <div><dt data-i18n="procLabel">Procedure</dt><dd data-i18n="s3Proc">Read the analyses → pick the 3–5 most relevant insights → fixed structure → save as output/relatorio-executivo-[date].md.</dd></div>
+              <div><dt data-i18n="benefitLabel">Benefit</dt><dd data-i18n="s3Benefit">Concrete numbers, cited sources, and limitations in their own section.</dd></div>
+            </dl>
+            <button class="skill-toggle" type="button" aria-expanded="false" data-i18n="showExcerpt">Show SKILL.md excerpt</button>
+            <div class="skill-excerpt" hidden>
+<pre><code>## Princípios de escrita
+
+- Linguagem executiva: direta, sem jargão estatístico
+- Cada seção começa com a conclusão — depois a evidência
+- Números concretos sempre: nunca "muito" ou "bastante"
+- Limitações dos dados vão na seção de observações</code></pre>
+              <p class="excerpt-src">.claude/skills/report-style/SKILL.md</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="experimental reveal">
+          <div class="experimental-head">
+            <span class="badge badge-exp" data-i18n="badgeExp">Experimental</span>
+            <p data-i18n="expLead">Two early Skills used to test the format before the core set — kept separate in Conceitos/skill-experimento-1/.</p>
+          </div>
+          <div class="exp-grid">
+            <article class="exp-card">
+              <h4><code>resumir-texto</code></h4>
+              <p data-i18n="exp1">Summarizes any text into 3 objective bullets, in plain language.</p>
+            </article>
+            <article class="exp-card">
+              <h4><code>resumo-5</code></h4>
+              <p data-i18n="exp2">Summarizes a pasted text or file into exactly 5 lines of at most 20 words each, with no added opinion.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 RESULTS ============ -->
+    <section class="section section-dark" id="results" aria-labelledby="results-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2 id="results-title" data-i18n="resultsTitle">Results</h2>
+          <p data-i18n="resultsLead">Figures confirmed against the executive report and the dataset (2024 sales, 500 orders).</p>
+        </header>
+
+        <div class="metric-grid">
+          <article class="metric reveal">
+            <span class="metric-label" data-i18n="mGross">Gross recorded value</span>
+            <span class="metric-value" data-i18n="vGross">R$ 1,672,029.36</span>
+            <span class="metric-note" data-i18n="nGross">All 500 orders, any status</span>
+          </article>
+          <article class="metric metric-hl reveal">
+            <span class="metric-label" data-i18n="mValid">Valid revenue</span>
+            <span class="metric-value" data-i18n="vValid">R$ 1,427,333.56</span>
+            <span class="metric-note" data-i18n="nValid">Delivered + In transit</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-label" data-i18n="mOrders">Valid orders</span>
+            <span class="metric-value">415</span>
+            <span class="metric-note" data-i18n="nOrders">326 delivered · 89 in transit</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-label" data-i18n="mLost">Cancelled or returned</span>
+            <span class="metric-value">85</span>
+            <span class="metric-note" data-i18n="nLost">60 cancelled · 25 returned</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-label" data-i18n="mLostValue">Cancellations &amp; returns value</span>
+            <span class="metric-value" data-i18n="vLost">R$ 244,695.80</span>
+            <span class="metric-note" data-i18n="nLostValue">14.6% of gross value</span>
+          </article>
+        </div>
+
+        <!-- Status breakdown -->
+        <figure class="status-bar reveal" aria-labelledby="status-cap">
+          <figcaption id="status-cap" class="status-cap" data-i18n="statusCap">Where the R$ 1.67M gross value went, by order status</figcaption>
+          <div class="sb-track" role="img" aria-label="Delivered 68.6%, In transit 16.8%, Cancelled 9.6%, Returned 5.0%" data-i18n-aria="statusAria">
+            <span class="sb-seg sb-delivered" style="--w:68.55"></span>
+            <span class="sb-seg sb-transit" style="--w:16.81"></span>
+            <span class="sb-seg sb-cancel" style="--w:9.59"></span>
+            <span class="sb-seg sb-return" style="--w:5.05"></span>
+          </div>
+          <ul class="sb-legend">
+            <li><i class="sw sb-delivered" aria-hidden="true"></i><span data-i18n="lgDelivered">Delivered</span> <b data-i18n="lgDeliveredV">R$ 1,146,226.64 · 326</b></li>
+            <li><i class="sw sb-transit" aria-hidden="true"></i><span data-i18n="lgTransit">In transit</span> <b data-i18n="lgTransitV">R$ 281,106.92 · 89</b></li>
+            <li><i class="sw sb-cancel" aria-hidden="true"></i><span data-i18n="lgCancel">Cancelled</span> <b data-i18n="lgCancelV">R$ 160,305.88 · 60</b></li>
+            <li><i class="sw sb-return" aria-hidden="true"></i><span data-i18n="lgReturn">Returned</span> <b data-i18n="lgReturnV">R$ 84,389.92 · 25</b></li>
+          </ul>
+        </figure>
+
+        <aside class="definition reveal" aria-labelledby="def-title">
+          <h3 id="def-title" data-i18n="defTitle">How to read these numbers</h3>
+          <ul>
+            <li data-i18n-html="def1"><strong>Valid revenue</strong> = orders <em>Delivered</em> + <em>In transit</em>. It is not the same as delivered revenue (R$ 1,146,226.64, already confirmed).</li>
+            <li data-i18n-html="def2"><strong>Not profit.</strong> The dataset has no product cost, so no margin or profit can be calculated — only revenue.</li>
+            <li data-i18n-html="def3"><strong>The charts use gross values</strong> (all statuses, as generated by chart-patterns). The report uses valid revenue. That is why shares can differ slightly (e.g. Notebooks: 36.6% gross vs 36.7% valid).</li>
+          </ul>
+        </aside>
+
+        <!-- Gallery -->
+        <div class="subhead subhead-dark reveal">
+          <h3 data-i18n="galleryTitle">Chart gallery</h3>
+          <p data-i18n="galleryLead">The six original PNGs, unedited. Click any chart to enlarge. Labels are in Portuguese, as generated.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="0" aria-label="Enlarge chart: Revenue by category" data-i18n-aria="open0">
+              <img src="output/charts/chart_barras_categoria_2026-11-15.png" width="1500" height="900" loading="lazy" decoding="async"
+                   alt="Horizontal bar chart of 2024 gross revenue by category: Notebooks R$ 612,538 (36.6%), Smartphones 20.2%, Tablets 17.8%, Monitors 12.0%, Peripherals 9.8%, Accessories 3.5%." data-i18n-alt="alt0">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c0t">Revenue by category</h4>
+              <p data-i18n="c0d">Notebooks lead with R$ 612.5k, 36.6% of gross value. Accessories close the ranking at 3.5%.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="1" aria-label="Enlarge chart: Sellers, volume vs. average order" data-i18n-aria="open1">
+              <img src="output/charts/chart_bolhas_vendedor_2026-11-15.png" width="1650" height="1095" loading="lazy" decoding="async"
+                   alt="Bubble chart of sellers: number of orders on the x-axis, average order value on the y-axis, bubble size equals total revenue. Patrícia Gomes has the highest average order and total." data-i18n-alt="alt1">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c1t">Sellers: volume × average order</h4>
+              <p data-i18n="c1d">Patrícia Gomes combines the highest average order with the largest total. Diego Santos and Carlos Souza win on volume, with lower tickets.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="2" aria-label="Enlarge chart: Order status by seller" data-i18n-aria="open2">
+              <img src="output/charts/chart_empilhado_status_vendedor_2026-11-15.png" width="1800" height="1020" loading="lazy" decoding="async"
+                   alt="100% stacked bar chart of order status by seller: delivered, in transit, returned and cancelled shares. Fernanda Costa has the highest cancelled share at 20%." data-i18n-alt="alt2">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c2t">Order status by seller</h4>
+              <p data-i18n="c2d">Fernanda Costa has the highest cancellation share (20%). Diego Santos has the most orders still in transit (28%).</p>
+            </figcaption>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="3" aria-label="Enlarge chart: Region × category heatmap" data-i18n-aria="open3">
+              <img src="output/charts/chart_heatmap_regiao_categoria_2026-11-15.png" width="1650" height="945" loading="lazy" decoding="async"
+                   alt="Heatmap of gross revenue by region and category. Notebooks dominate in the South, Center-West and Southeast; in the North, Smartphones exceed Notebooks." data-i18n-alt="alt3">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c3t">Region × category</h4>
+              <p data-i18n="c3d">Notebooks dominate in every region but one: in the North, Smartphones (R$ 65.7k) outsell Notebooks (R$ 53.2k).</p>
+            </figcaption>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="4" aria-label="Enlarge chart: Monthly revenue" data-i18n-aria="open4">
+              <img src="output/charts/chart_linha_data_venda_2026-11-15.png" width="1650" height="900" loading="lazy" decoding="async"
+                   alt="Line chart of monthly gross revenue in 2024 with a R$ 139.3k monthly average. Peak in October at R$ 189.2k, low in September at R$ 96.4k." data-i18n-alt="alt4">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c4t">Monthly revenue</h4>
+              <p data-i18n="c4d">Gross value peaks in October (R$ 189.2k) right after the low in September (R$ 96.4k). On valid revenue, October is still the peak.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <button class="chart-open" type="button" data-index="5" aria-label="Enlarge chart: Revenue by sales channel" data-i18n-aria="open5">
+              <img src="output/charts/chart_rosca_canal_venda_2026-11-15.png" width="1200" height="1245" loading="lazy" decoding="async"
+                   alt="Donut chart of gross revenue by sales channel, total R$ 1.65M: Website 23.1%, Partner 22.7%, Physical store 20.9%, Marketplace 19.5%, App 13.8%." data-i18n-alt="alt5">
+            </button>
+            <figcaption>
+              <h4 data-i18n="c5t">Revenue by sales channel</h4>
+              <p data-i18n="c5d">Five channels, no single dominant one. The App brings the smallest share (13.8%) — and, per the report, the highest loss rate.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Insights -->
+        <div class="subhead subhead-dark reveal">
+          <h3 data-i18n="insightsTitle">Business insights</h3>
+          <p data-i18n="insightsLead">Documented in the executive report. Valid-revenue basis.</p>
+        </div>
+
+        <div class="insight-grid">
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b1">36.7%</span>
+            <h4 data-i18n="i1t">Notebooks carry the revenue</h4>
+            <p data-i18n="i1d">R$ 524,081.90 of valid revenue. One product, the Notebook Gamer X, alone accounts for 17.7% — a concentration risk.</p>
+          </article>
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b2">24.1%</span>
+            <h4 data-i18n="i2t">Channels don't perform alike</h4>
+            <p data-i18n="i2d">Partner and Website lead with 46.1% of valid revenue. The App has the lowest revenue and loses 24.1% of its orders — almost twice the Partner channel (12.3%).</p>
+          </article>
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b3">14.6%</span>
+            <h4 data-i18n="i3t">Cancellations &amp; returns</h4>
+            <p data-i18n="i3d">R$ 244,695.80 of gross value lost: 60 cancelled orders (R$ 160,305.88) and 25 returned (R$ 84,389.92).</p>
+          </article>
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b4">8.8%</span>
+            <h4 data-i18n="i4t">Orders with no seller</h4>
+            <p data-i18n="i4d">44 records have no seller: R$ 89,312.20 of valid revenue (6.3%) can't be attributed — and these orders show the highest loss rate (27.3%).</p>
+          </article>
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b5">R$ 0</span>
+            <h4 data-i18n="i5t">No cost data, no profit view</h4>
+            <p data-i18n="i5d">The dataset has no product cost. It shows what sells most, not what is profitable — no margin or profit is claimed anywhere.</p>
+          </article>
+          <article class="insight reveal">
+            <span class="insight-big" data-i18n="b6">28.9%</span>
+            <h4 data-i18n="i6t">Many orders, little revenue</h4>
+            <p data-i18n="i6d">Accessories are 28.9% of valid orders (120 of 415) but only 3.5% of valid revenue (R$ 49,380.28).</p>
+          </article>
+        </div>
+
+        <!-- Executive report -->
+        <article class="report reveal" aria-labelledby="report-title">
+          <div class="report-doc" aria-hidden="true">
+            <span class="doc-line w80"></span><span class="doc-line w60"></span><span class="doc-line w90"></span>
+            <span class="doc-line w40 accent"></span><span class="doc-line w70"></span><span class="doc-line w85"></span><span class="doc-line w50"></span>
+            <span class="doc-tag">.md</span>
+          </div>
+          <div class="report-body">
+            <span class="tag tag-accent" data-i18n="reportTag">Executive report · 15/11/2026</span>
+            <h3 id="report-title" data-i18n="reportTitle">Conclusion first, evidence second.</h3>
+            <ul class="report-list">
+              <li data-i18n="r1">Sales summary with concrete numbers and a source tag ([F1], [F2], [F3]) on every figure.</li>
+              <li data-i18n="r2">Data quality verdict: reliable base — no duplicates, no invalid dates, all 500 totals match quantity × price × (1 − discount); 83 blank fields in 3 columns.</li>
+              <li data-i18n="r3">Breakdowns by category, product, region, seller, channel and month.</li>
+              <li data-i18n="r4">Six risk alerts, including R$ 281,106.92 still in transit and 53 orders with 15–20% discounts.</li>
+              <li data-i18n="r5">Explicit limitations: no cost, no targets, one year only, no cancellation reason, no customer data.</li>
+            </ul>
+            <a class="btn btn-primary" href="output/relatorio-executivo-2026-11-15.md" target="_blank" rel="noopener"><span data-i18n="reportLink">Open the original report (Markdown, PT-BR)</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 05 CONCLUSIONS ============ -->
+    <section class="section" id="conclusions" aria-labelledby="conc-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">05</span>
+          <h2 id="conc-title" data-i18n="concTitle">Key takeaways</h2>
+          <p data-i18n="concLead">What this case shows, technically and for the business.</p>
+        </header>
+
+        <div class="conc-grid">
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">01</span><h3 data-i18n="kh1">Reusable Workflows</h3><p data-i18n="k1">Repetitive procedures deserve written, standardized instructions. A Skill is written once and applied the same way every time.</p></article>
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">02</span><h3 data-i18n="kh2">Data Quality</h3><p data-i18n="k2">Validate before concluding. Profiling surfaced fixes and blank fields that would otherwise have distorted the rankings.</p></article>
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">03</span><h3 data-i18n="kh3">Automation &amp; Productivity</h3><p data-i18n="k3">Skills make procedures more consistent: same checks, same chart style, same report structure — less rework.</p></article>
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">04</span><h3 data-i18n="kh4">Data Storytelling</h3><p data-i18n="k4">Six charts and one report turn 500 rows into something a manager can read in minutes.</p></article>
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">05</span><h3 data-i18n="kh5">Business Decision-Making</h3><p data-i18n="k5">Indicators point to concrete questions: product dependence, App losses, unattributed orders, revenue still in transit.</p></article>
+          <article class="conc reveal"><span class="conc-i" aria-hidden="true">06</span><h3 data-i18n="kh6">Technical Organization</h3><p data-i18n="k6">Clear separation of rules, Skills, source data and outputs — with protected files that are never modified.</p></article>
+        </div>
+
+        <blockquote class="final-quote reveal">
+          <p data-i18n="quote">“The real value of AI isn't just generating outputs. It's building reliable workflows that transform information into better decisions.”</p>
+          <footer>— Bruno Moreau</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-title">Claude Code Skills — From Data to Business Insights</p>
+        <p class="footer-sub" data-i18n="footerSub">A practical case study by Bruno Moreau.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/brumo97" target="_blank" rel="noopener">GitHub · brumo97 <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/brumo97/claude-skills-business-analytics" target="_blank" rel="noopener"><span data-i18n="footerRepo">Source code</span> <span aria-hidden="true">↗</span></a></li>
+        <li><a href="#top" data-i18n="footerTop">Back to top ↑</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal" id="chart-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <div class="modal-head">
+        <h2 id="modal-title" class="modal-title"></h2>
+        <span class="modal-count" id="modal-count"></span>
+        <button class="modal-close" type="button" data-close aria-label="Close" data-i18n-aria="close">✕</button>
+      </div>
+      <div class="modal-body">
+        <button class="modal-nav prev" type="button" aria-label="Previous chart" data-i18n-aria="prev">‹</button>
+        <img id="modal-img" alt="">
+        <button class="modal-nav next" type="button" aria-label="Next chart" data-i18n-aria="next">›</button>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
