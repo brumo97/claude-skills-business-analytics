@@ -182,28 +182,6 @@ Full report (Portuguese): [`output/relatorio-executivo-2026-11-15.md`](output/re
 
 ---
 
-## How to Run
-
-No installation, no build step.
-
-**Option 1 — open directly**
-
-1. Download or clone the repository.
-2. Open `index.html` in any modern browser.
-
-**Option 2 — local server (optional)**
-
-```bash
-python -m http.server 8000
-# then open http://localhost:8000
-```
-
-**Language:** the site follows your browser language by default. Use the **EN / PT** switch in the header, or add `?lang=en` / `?lang=pt` to the URL.
-
-**Deploying to GitHub Pages:** *Settings → Pages → Deploy from a branch → `main` → `/ (root)`*. All paths are relative, so the site works from the repository sub-path.
-
----
-
 ## Key Takeaways
 
 - **Reusable workflows** — repetitive procedures deserve written, standardized instructions.
