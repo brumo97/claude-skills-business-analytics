@@ -12,12 +12,9 @@
 
 ## Live Demo
 
-**Live Demo — View Interactive Website**
+### 🔗 [Live Demo — View Interactive Website](https://brumo97.github.io/claude-skills-business-analytics/)
 
-🚧 The interactive website is ready for GitHub Pages but **not published yet**.
-Once Pages is enabled, it will be available at the expected address below (to be confirmed after deployment):
-
-`https://brumo97.github.io/claude-skills-business-analytics/`
+Hosted on GitHub Pages: **https://brumo97.github.io/claude-skills-business-analytics/** — no installation needed.
 
 The site is bilingual — **English / Português (Brasil)** — with a language switch in the header.
 
