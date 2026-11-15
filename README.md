@@ -214,10 +214,3 @@ python -m http.server 8000
 - **Technical organization** — clear separation of rules, Skills, source data and outputs, with protected files that are never modified.
 
 > *“The real value of AI isn't just generating outputs. It's building reliable workflows that transform information into better decisions.”*
-
----
-
-## Author
-
-**Bruno Moreau**
-GitHub: [@brumo97](https://github.com/brumo97)
